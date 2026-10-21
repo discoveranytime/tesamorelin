@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tesamorelin — The Prescription Peptide | Claims vs Evidence</title>
+<title>Tesamorelin — The Visceral Fat Burning Peptide | Claims vs Evidence</title>
 <meta name="description" content="An interactive, educational deep-dive into Tesamorelin: the FDA-approved GHRH analog, how it raises growth hormone, its real phase-3 trial record, and what people online report. Not medical advice.">
 <script>
 try{var _t=localStorage.getItem("tesamorelin-theme");if(_t==="light"||_t==="dark")document.documentElement.setAttribute("data-theme",_t);}catch(e){}
@@ -12,13 +12,13 @@ try{var _t=localStorage.getItem("tesamorelin-theme");if(_t==="light"||_t==="dark
 :root{
   --bg0:#06070d; --bg1:#0a0c17;
   --ink:#edf0f9; --muted:#a9b1c9; --faint:#7f88a5;
-  --sky:#facc15; --sky-deep:#9b7d03;
-  --teal:#22d3ee; --teal-deep:#0b8294;
-  --org:#facc15; --org-deep:#9b7d03;
-  --amber:#facc15; --rose:#22d3ee; --cyan:#c084fc;
+  --sky:#b79bff; --sky-deep:#7c3aed;
+  --teal:#c9f65e; --teal-deep:#4d7c0f;
+  --org:#b79bff; --org-deep:#7c3aed;
+  --amber:#b79bff; --rose:#c9f65e; --cyan:#fbbf24;
   --card:#0d1020; --card2:#12162b;
   --line:rgba(255,255,255,.09);
-  --grad:linear-gradient(100deg,#d3b334 5%,#046978 50%,#d3b334 95%);
+  --grad:linear-gradient(100deg,#b79bff 10%,#c9f65e 90%);
   --ongrad:#0a0c14;
   --radius:18px;
   --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -30,15 +30,15 @@ body{font-family:var(--font);background:var(--bg0);color:var(--ink);
   font-size:1.06rem;line-height:1.75;overflow-x:clip;-webkit-font-smoothing:antialiased}
 .bg-grad{position:fixed;inset:0;z-index:0;pointer-events:none;
   background:
-    radial-gradient(900px 620px at 12% -6%, rgba(4,105,120,0.288), transparent 60%),
-    radial-gradient(820px 600px at 88% 22%, rgba(23,2,44,0.192), transparent 60%),
-    radial-gradient(1000px 800px at 50% 110%, rgba(23,2,44,0.192), transparent 62%),
-    radial-gradient(700px 500px at 78% 78%, rgba(211,179,52,0.096), transparent 60%)}
+    radial-gradient(900px 620px at 12% -6%, rgba(77,124,15,0.288), transparent 60%),
+    radial-gradient(820px 600px at 88% 22%, rgba(44,13,8,0.192), transparent 60%),
+    radial-gradient(1000px 800px at 50% 110%, rgba(44,13,8,0.192), transparent 62%),
+    radial-gradient(700px 500px at 78% 78%, rgba(183,155,255,0.096), transparent 60%)}
 #dots{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.85}
 .orb{position:fixed;z-index:0;pointer-events:none;border-radius:50%;filter:blur(90px)}
-.o1{width:520px;height:520px;left:-140px;top:6%;background:radial-gradient(circle,rgba(4,105,120,0.24),transparent 70%);animation:drift1 38s ease-in-out infinite alternate}
-.o2{width:460px;height:460px;right:-120px;top:38%;background:radial-gradient(circle,rgba(23,2,44,0.192),transparent 70%);animation:drift2 46s ease-in-out infinite alternate}
-.o3{width:430px;height:430px;left:24%;bottom:-160px;background:radial-gradient(circle,rgba(23,2,44,0.192),transparent 70%);animation:drift3 54s ease-in-out infinite alternate}
+.o1{width:520px;height:520px;left:-140px;top:6%;background:radial-gradient(circle,rgba(77,124,15,0.24),transparent 70%);animation:drift1 38s ease-in-out infinite alternate}
+.o2{width:460px;height:460px;right:-120px;top:38%;background:radial-gradient(circle,rgba(44,13,8,0.192),transparent 70%);animation:drift2 46s ease-in-out infinite alternate}
+.o3{width:430px;height:430px;left:24%;bottom:-160px;background:radial-gradient(circle,rgba(44,13,8,0.192),transparent 70%);animation:drift3 54s ease-in-out infinite alternate}
 @keyframes drift1{from{transform:translate(0,0)}to{transform:translate(120px,80px)}}
 @keyframes drift2{from{transform:translate(0,0)}to{transform:translate(-100px,-70px)}}
 @keyframes drift3{from{transform:translate(0,0)}to{transform:translate(90px,-80px)}}
@@ -67,13 +67,13 @@ body{font-family:var(--font);background:var(--bg0);color:var(--ink);
 [data-theme="light"]{
   --bg0:#e8ebf0; --bg1:#eef1f6;
   --ink:#1b2436; --muted:#4d5871; --faint:#707a93;
-  --sky:#a58504; --sky-deep:#372d01;
-  --teal:#078ea3; --teal-deep:#023037;
-  --org:#a58504; --org-deep:#372d01;
-  --amber:#078ea3; --rose:#a58504; --cyan:#078ea3;
+  --sky:#6d28d9; --sky-deep:#5b21b6;
+  --teal:#4d7c0f; --teal-deep:#3f6212;
+  --org:#6d28d9; --org-deep:#5b21b6;
+  --amber:#4d7c0f; --rose:#6d28d9; --cyan:#4d7c0f;
   --card:#f8fafc; --card2:#e9edf3;
   --line:rgba(15,23,42,.14);
-  --grad:linear-gradient(100deg,#786104,#02262c,#786104);
+  --grad:linear-gradient(100deg,#7c3aed 10%,#65a30d 90%);
   --ongrad:#ffffff;
   color-scheme:light;
 }
@@ -133,8 +133,8 @@ h2 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;
 .badge{display:inline-flex;align-items:center;gap:.55rem;font-size:.78rem;font-weight:700;letter-spacing:.18em;
   text-transform:uppercase;color:var(--ink);border:1px solid var(--line);background:rgba(255,255,255,.04);
   padding:.55rem 1.1rem;border-radius:999px;margin-bottom:1.6rem}
-.badge .dot{width:.6rem;height:.6rem;border-radius:50%;background:var(--amber);box-shadow:0 0 0 0 rgba(211,179,52,.6);animation:pulse 2.2s infinite}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(211,179,52,.55)}70%{box-shadow:0 0 0 12px rgba(211,179,52,0)}100%{box-shadow:0 0 0 0 rgba(211,179,52,0)}}
+.badge .dot{width:.6rem;height:.6rem;border-radius:50%;background:var(--amber);box-shadow:0 0 0 0 rgba(183,155,255,.6);animation:pulse 2.2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(183,155,255,.55)}70%{box-shadow:0 0 0 12px rgba(183,155,255,0)}100%{box-shadow:0 0 0 0 rgba(183,155,255,0)}}
 .hero h1{font-family:var(--disp);font-weight:900;letter-spacing:-.03em;line-height:1.02;font-size:clamp(2.4rem,7.5vw,4.8rem);margin-bottom:1.1rem}
 .hero h1 .g{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;
   background-size:200% auto;animation:sheen 9s ease-in-out infinite}
@@ -147,7 +147,7 @@ h2 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;
   background:var(--grad);color:#0a0c14;border-radius:8px;padding:.35rem .7rem;margin-top:.2rem}
 .quickread p{color:var(--muted);font-size:.98rem}
 .quickread p strong{color:var(--ink)}
-.herodisc{max-width:640px;margin:0 auto 1.6rem;padding:.65rem 1rem;border:1px dashed rgba(211,179,52,.45);border-radius:12px;font-size:.85rem;color:var(--muted);text-align:center}
+.herodisc{max-width:640px;margin:0 auto 1.6rem;padding:.65rem 1rem;border:1px dashed rgba(183,155,255,.45);border-radius:12px;font-size:.85rem;color:var(--muted);text-align:center}
 .hero-stats{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:2.4rem}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.5rem;min-width:150px}
 .stat .num{font-family:var(--disp);font-size:2rem;font-weight:800;background:var(--grad);
@@ -186,13 +186,13 @@ h2 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;
 .kv:first-of-type{border-top:none}
 .kv .k{flex:0 0 auto;font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
   padding:.3rem .7rem;border-radius:8px;margin-top:.25rem}
-.kv .k.s{background:rgba(86, 178, 255,.12);color:var(--sky);border:1px solid rgba(86, 178, 255,.35)}
-.kv .k.t{background:rgba(145,54,236,.10);color:var(--teal);border:1px solid rgba(145,54,236,.35)}
-.kv .k.o{background:rgba(251,146,60,.12);color:var(--org);border:1px solid rgba(251,146,60,.35)}
-.kv .k.a{background:rgba(211,179,52,.12);color:var(--amber);border:1px solid rgba(211,179,52,.35)}
-.kv .k.g{background:rgba(211,179,52,.12);color:var(--rose);border:1px solid rgba(211,179,52,.35)}
+.kv .k.s{background:rgba(251, 191, 36,.12);color:var(--sky);border:1px solid rgba(251, 191, 36,.35)}
+.kv .k.t{background:rgba(201,246,94,.10);color:var(--teal);border:1px solid rgba(201,246,94,.35)}
+.kv .k.o{background:rgba(201,246,94,.12);color:var(--org);border:1px solid rgba(201,246,94,.35)}
+.kv .k.a{background:rgba(183,155,255,.12);color:var(--amber);border:1px solid rgba(183,155,255,.35)}
+.kv .k.g{background:rgba(183,155,255,.12);color:var(--rose);border:1px solid rgba(183,155,255,.35)}
 .kv p{font-size:.99rem}
-.diagram{background:radial-gradient(600px 300px at 50% 0%,rgba(4,105,120,.10),transparent 70%),#090b15;
+.diagram{background:radial-gradient(600px 300px at 50% 0%,rgba(77,124,15,.10),transparent 70%),#090b15;
   border:1px solid var(--line);border-radius:var(--radius);padding:1.6rem;margin:0 0 1.4rem;overflow:hidden}
 .diagram svg{display:block;width:100%;height:auto}
 .diagram .cap{text-align:center;color:var(--faint);font-size:.85rem;margin-top:.9rem;letter-spacing:.03em}
@@ -216,7 +216,7 @@ h2 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;
 .anec{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.4rem;position:relative;overflow:hidden}
 .anec::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--grad)}
 .anec .stamp{display:inline-block;font-size:.66rem;font-weight:800;letter-spacing:.12em;
-  color:var(--amber);border:1px solid rgba(211,179,52,.4);background:rgba(211,179,52,.08);
+  color:var(--amber);border:1px solid rgba(183,155,255,.4);background:rgba(183,155,255,.08);
   padding:.28rem .6rem;border-radius:7px;text-transform:uppercase;margin-bottom:.65rem}
 .anec h4{font-size:1.05rem;font-weight:800;margin-bottom:.5rem}
 .anec-head{display:flex;align-items:center;gap:.85rem;margin-bottom:.55rem}
@@ -232,7 +232,7 @@ h2 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;
 .anec p{color:var(--muted);font-size:.95rem}
 .anec p strong{color:var(--ink)}
 .anec .caveat{margin-top:.8rem;font-size:.82rem;color:var(--faint);border-top:1px dashed var(--line);padding-top:.7rem}
-.folk-note{background:rgba(211,179,52,.06);border:1px solid rgba(211,179,52,.3);border-radius:var(--radius);
+.folk-note{background:rgba(183,155,255,.06);border:1px solid rgba(183,155,255,.3);border-radius:var(--radius);
   padding:1.2rem 1.4rem;margin-bottom:1.6rem;color:var(--muted);font-size:.98rem}
 .folk-note strong{color:var(--amber)}
 .safety-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem}
@@ -243,9 +243,9 @@ h2 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;
 .scard h4{font-size:1.05rem;font-weight:800;margin-bottom:.5rem}
 .scard p{color:var(--muted);font-size:.95rem}
 .scard p strong{color:var(--ink)}
-.lvl-known .level{background:rgba(211,179,52,.1);color:var(--amber);border:1px solid rgba(211,179,52,.4)}
-.lvl-theory .level{background:rgba(251,146,60,.1);color:var(--org);border:1px solid rgba(251,146,60,.4)}
-.lvl-unknown .level{background:rgba(211,179,52,.1);color:var(--rose);border:1px solid rgba(211,179,52,.4)}
+.lvl-known .level{background:rgba(183,155,255,.1);color:var(--amber);border:1px solid rgba(183,155,255,.4)}
+.lvl-theory .level{background:rgba(201,246,94,.1);color:var(--org);border:1px solid rgba(201,246,94,.4)}
+.lvl-unknown .level{background:rgba(183,155,255,.1);color:var(--rose);border:1px solid rgba(183,155,255,.4)}
 .gloss{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--card)}
 .g-item{border-bottom:1px solid var(--line)}
 .g-item:last-child{border-bottom:none}
@@ -281,7 +281,7 @@ h2 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;
 .take h4{font-size:1.05rem;font-weight:800;margin-bottom:.4rem}
 .take p{color:var(--muted);font-size:.95rem}
 .take p strong{color:var(--ink)}
-.limits{background:rgba(211,179,52,.05);border:1px solid rgba(211,179,52,.3);border-radius:var(--radius);
+.limits{background:rgba(183,155,255,.05);border:1px solid rgba(183,155,255,.3);border-radius:var(--radius);
   padding:1.4rem 1.6rem;margin-bottom:1.6rem}
 .limits h3{font-family:var(--disp);font-size:1.2rem;font-weight:800;margin-bottom:.7rem;color:var(--rose)}
 .limits ul{list-style:none;display:grid;gap:.6rem}
@@ -348,7 +348,7 @@ mini-poll { display: block; }
   border-radius: 18px;
   background:
     linear-gradient(var(--card, #0d1020), var(--card, #0d1020)) padding-box,
-    linear-gradient(135deg, var(--mpc1, #d3b334), var(--mpc2, #046978)) border-box;
+    linear-gradient(135deg, var(--mpc1, #b79bff), var(--mpc2, #4d7c0f)) border-box;
   font-family: inherit;
   overflow: hidden;
 }
@@ -360,11 +360,11 @@ mini-poll { display: block; }
   color: var(--muted, #a9b1c9); font-size: .88rem;
 }
 .mpoll-teaser:hover { background: rgba(255,255,255,.03); }
-.mpoll-teaser:focus-visible { outline: 2px solid var(--amber, #d3b334); outline-offset: -2px; }
+.mpoll-teaser:focus-visible { outline: 2px solid var(--amber, #b79bff); outline-offset: -2px; }
 .mpoll-teaser-dot {
   flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%;
-  background: var(--mpc1, #d3b334);
-  box-shadow: 0 0 10px var(--mpc1, #d3b334);
+  background: var(--mpc1, #b79bff);
+  box-shadow: 0 0 10px var(--mpc1, #b79bff);
   animation: mpulse 2.4s ease-in-out infinite;
 }
 @keyframes mpulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
@@ -398,7 +398,7 @@ mini-poll { display: block; }
   display: flex; align-items: center; justify-content: center; gap: .6rem;
   max-width: 620px; margin: 0 auto 1.4rem; padding: .6rem 1.2rem;
   border-radius: 999px; font-size: .82rem; font-weight: 700; color: #0a0c14;
-  background: linear-gradient(100deg, var(--acc1, #d3b334), var(--acc2, #046978), var(--acc3, #d3b334));
+  background: linear-gradient(100deg, var(--acc1, #b79bff), var(--acc2, #4d7c0f), var(--acc3, #b79bff));
 }
 .mpoll-topbanner-dot {
   flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%;
@@ -419,23 +419,23 @@ mini-poll { display: block; }
   background: rgba(255,255,255,.03); color: var(--ink, #edf0f9);
   font-size: .95rem; transition: border-color .15s, background .15s, transform .15s;
 }
-.mpoll-opt:hover { border-color: var(--amber, #d3b334); background: rgba(255,255,255,.05); }
-.mpoll-opt:focus-visible { outline: 2px solid var(--amber, #d3b334); outline-offset: 2px; }
-.mpoll-opt.sel { border-color: var(--amber, #d3b334); background: rgba(211,179,52,.10); }
+.mpoll-opt:hover { border-color: var(--amber, #b79bff); background: rgba(255,255,255,.05); }
+.mpoll-opt:focus-visible { outline: 2px solid var(--amber, #b79bff); outline-offset: 2px; }
+.mpoll-opt.sel { border-color: var(--amber, #b79bff); background: rgba(183,155,255,.10); }
 .mpoll-emoji { font-size: 1.25rem; flex: 0 0 auto; }
 .mpoll-label { flex: 1; }
 .mpoll-vote, .mpoll-again {
   display: block; width: 100%; margin-top: .9rem; padding: .8rem;
   border: 0; border-radius: 12px; cursor: pointer;
   font-size: 1rem; font-weight: 800; color: #0a0c14;
-  background: linear-gradient(100deg, var(--acc1, #d3b334), var(--acc2, #046978));
+  background: linear-gradient(100deg, var(--acc1, #b79bff), var(--acc2, #4d7c0f));
   transition: transform .15s, opacity .15s;
 }
 .mpoll-vote:hover:not(:disabled), .mpoll-again:hover { transform: translateY(-1px); }
 .mpoll-vote:disabled { opacity: .45; cursor: not-allowed; transform: none; }
 .mpoll-note {
-  margin-top: .7rem; font-size: .88rem; color: #d3b334;
-  border: 1px dashed rgba(211,179,52,.4); border-radius: 10px; padding: .6rem .8rem;
+  margin-top: .7rem; font-size: .88rem; color: #b79bff;
+  border: 1px dashed rgba(183,155,255,.4); border-radius: 10px; padding: .6rem .8rem;
 }
 .mpoll-bars { display: grid; gap: .6rem; margin-top: .4rem; }
 .mpoll-rowtop {
@@ -443,17 +443,17 @@ mini-poll { display: block; }
   font-size: .9rem; color: var(--ink, #edf0f9); margin-bottom: .28rem;
 }
 .mpoll-pct { font-weight: 800; color: var(--muted, #a9b1c9); flex: 0 0 auto; }
-.mpoll-mine { color: var(--amber, #d3b334); font-weight: 700; font-size: .8rem; }
+.mpoll-mine { color: var(--amber, #b79bff); font-weight: 700; font-size: .8rem; }
 .mpoll-track {
   height: 10px; border-radius: 999px; overflow: hidden;
   background: rgba(255,255,255,.07);
 }
 .mpoll-fill {
   height: 100%; width: 0; border-radius: 999px;
-  background: linear-gradient(90deg, var(--acc1, #d3b334), var(--acc2, #046978), var(--acc3, #d3b334));
+  background: linear-gradient(90deg, var(--acc1, #b79bff), var(--acc2, #4d7c0f), var(--acc3, #b79bff));
   transition: width .9s cubic-bezier(.22,.8,.3,1);
 }
-.mpoll-row.mine .mpoll-fill { box-shadow: 0 0 10px rgba(211,179,52,.45); }
+.mpoll-row.mine .mpoll-fill { box-shadow: 0 0 10px rgba(183,155,255,.45); }
 .mpoll-total {
   margin-top: .8rem; font-size: .85rem; color: var(--faint, #7f88a5);
 }
@@ -479,7 +479,7 @@ mini-poll { display: block; }
 
 
 /* tile icons */
-.tic{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(211,179,52,.09);border:1px solid rgba(211,179,52,.28);margin-bottom:.75rem;flex:0 0 auto}
+.tic{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(183,155,255,.09);border:1px solid rgba(183,155,255,.28);margin-bottom:.75rem;flex:0 0 auto}
 .tic svg{width:23px;height:23px;display:block}
 .anec-head{display:flex;align-items:center;gap:.6rem}
 .anec-head h4{flex:1}
@@ -510,8 +510,8 @@ mini-poll { display: block; }
 @media(max-width:640px){.dod{grid-template-columns:1fr}}
 .do-card,.dont-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.4rem}
 .do-card h4,.dont-card h4{display:flex;align-items:center;gap:.6rem;margin-bottom:.8rem;font-size:1.02rem}
-.do-card{border-top:3px solid #d3b334}
-.dont-card{border-top:3px solid #046978}
+.do-card{border-top:3px solid #b79bff}
+.dont-card{border-top:3px solid #4d7c0f}
 .dod ul{list-style:none;display:grid;gap:.65rem}
 .dod li{display:flex;gap:.6rem;align-items:flex-start;color:var(--muted);font-size:.95rem;line-height:1.55}
 .dod li svg{flex:0 0 auto;width:20px;height:20px;margin-top:.2rem}
@@ -531,7 +531,7 @@ mini-poll { display: block; }
 .vs-row .vk{font-weight:800;color:var(--sky);font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;padding-top:.2rem}
 .vs-row p{color:var(--muted);margin:0;line-height:1.6}
 .vs-row p strong{color:var(--ink)}
-.vs-verdict{margin-top:.9rem;padding:.8rem 1rem;background:rgba(211,179,52,.07);border:1px solid rgba(211,179,52,.25);border-radius:12px;font-size:.9rem;color:var(--muted);line-height:1.6}
+.vs-verdict{margin-top:.9rem;padding:.8rem 1rem;background:rgba(183,155,255,.07);border:1px solid rgba(183,155,255,.25);border-radius:12px;font-size:.9rem;color:var(--muted);line-height:1.6}
 .vs-verdict strong{color:var(--ink)}
 
 
@@ -541,18 +541,18 @@ mini-poll { display: block; }
 .tier-grid{display:grid;gap:1.1rem}
 .tier{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem 1.6rem;position:relative;overflow:hidden}
 .tier .tbar{position:absolute;top:0;left:0;right:0;height:4px}
-.tier.est .tbar{background:linear-gradient(90deg,#d3b334,#b99710)}
+.tier.est .tbar{background:linear-gradient(90deg,#b79bff,#a78bfa)}
 .tier.emg .tbar{background:var(--grad)}
 .tier.com .tbar{background:var(--amber)}
 .tier h3{font-size:1.12rem;font-weight:800;margin:.55rem 0 .7rem;display:flex;align-items:center;gap:.65rem;flex-wrap:wrap}
 .badge-pill{display:inline-flex;align-items:center;gap:.4rem;font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:.34rem .75rem;border-radius:999px;white-space:nowrap}
-.badge-pill.est{background:rgba(211,179,52,.12);color:#d3b334;border:1px solid rgba(211,179,52,.4)}
+.badge-pill.est{background:rgba(183,155,255,.12);color:#b79bff;border:1px solid rgba(183,155,255,.4)}
 .badge-pill.emg{background:rgba(140,160,200,.10);color:var(--sky);border:1px solid rgba(140,160,200,.35)}
-.badge-pill.com{background:rgba(251,191,36,.10);color:var(--amber);border:1px solid rgba(251,191,36,.4)}
+.badge-pill.com{background:rgba(183,155,255,.10);color:var(--amber);border:1px solid rgba(183,155,255,.4)}
 .tier ul{list-style:none;margin:0 0 .4rem;padding:0}
 .tier ul li{position:relative;padding:.45rem 0 .45rem 1.5rem;font-size:.96rem;color:var(--muted)}
 .tier ul li::before{content:"\25B8";position:absolute;left:0;font-weight:800}
-.tier.est ul li::before{color:#d3b334}
+.tier.est ul li::before{color:#b79bff}
 .tier.emg ul li::before{color:var(--sky)}
 .tier.com ul li::before{color:var(--amber)}
 .tier ul li strong{color:var(--ink)}
@@ -590,10 +590,10 @@ mini-poll { display: block; }
 .bgtrack{display:inline-block;white-space:nowrap;animation:wmdrift var(--spd,120s) linear infinite}
 .bgline.rev .bgtrack{animation-direction:reverse}
 .bgtrack b{font-weight:900;letter-spacing:.04em;color:transparent;
-  -webkit-text-stroke:1px var(--sc,rgba(211,179,52,.38))}
+  -webkit-text-stroke:1px var(--sc,rgba(183,155,255,.38))}
 .bgtrack i{font-style:normal;color:transparent;-webkit-text-stroke:1px rgba(152,164,192,.22);margin:0 .7em}
-.w1{--sc:rgba(211,179,52,.38)}
-.w2{--sc:rgba(4,105,120,.34)}
+.w1{--sc:rgba(183,155,255,.38)}
+.w2{--sc:rgba(77,124,15,.34)}
 @keyframes wmdrift{to{transform:translateX(-50%)}}
 @media(max-width:900px){ .bgline.mhide{display:none} }
 @media (prefers-reduced-motion:reduce){ .bgtrack{animation:none} }
@@ -604,7 +604,7 @@ mini-poll { display: block; }
 <svg class="sr-only" aria-hidden="true" focusable="false">
   <defs>
     <linearGradient id="triGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d3b334"/><stop offset="50%" stop-color="#046978"/><stop offset="100%" stop-color="#d3b334"/>
+      <stop offset="0%" stop-color="#b79bff"/><stop offset="50%" stop-color="#4d7c0f"/><stop offset="100%" stop-color="#b79bff"/>
     </linearGradient>
   </defs>
 </svg>
@@ -623,7 +623,7 @@ mini-poll { display: block; }
   </button>
 </div>
 <aside class="toc" aria-label="Chapters">
-  <div class="brand">Tesamorelin<br><span class="g">the prescription peptide</span></div>
+  <div class="brand">Tesamorelin<br><span class="g">the visceral fat burning peptide</span></div>
   <div class="toc-pill" aria-hidden="true"></div>
   <a href="#ch1"><span class="n">01</span>The Medicine</a>
   <a href="#ch2"><span class="n">02</span>HIV &rarr; Fame</a>
@@ -645,7 +645,7 @@ mini-poll { display: block; }
 
 <header class="hero">
   <div class="badge"><span class="dot"></span>GHRH analog &middot; prescription medicine</div>
-  <h1>Tesamorelin<br><span class="g">the prescription peptide</span></h1>
+  <h1>Tesamorelin<br><span class="g">the visceral fat burning peptide</span></h1>
   <p class="sub">A lab-made copy of a natural brain hormone that tells your pituitary gland to release growth hormone &mdash; approved by the FDA in <strong>2010</strong> as Egrifta for HIV-related belly fat, and now whispered about online for everything else. Here is what it actually is, separated from the hype.</p>
   <div class="quickread">
     <span class="tag">Quick read</span>
@@ -662,6 +662,228 @@ mini-poll { display: block; }
 </header>
 
 <main class="wrap">
+<style>
+.ts-stage{margin:0 0 2.6rem;padding:clamp(1.1rem,2.6vw,1.9rem) clamp(.8rem,2vw,1.5rem) 1.2rem;border-radius:var(--radius);
+  border:1px solid var(--line);background:linear-gradient(180deg,var(--card2),var(--card));
+  box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.ts-kicker{text-align:center;font-size:.7rem;font-weight:800;letter-spacing:.32em;color:var(--faint);text-transform:uppercase}
+.ts-kicker b{color:var(--cyan)}
+.ts-h{text-align:center;font-family:var(--disp);font-weight:900;letter-spacing:-.01em;
+  font-size:clamp(1.5rem,3.4vw,2.1rem);margin:.35rem 0 .3rem;color:var(--ink)}
+.ts-sub{text-align:center;color:var(--muted);max-width:660px;margin:0 auto;font-size:.98rem;line-height:1.6}
+.ts-stage svg{width:100%;height:auto;display:block;margin-top:.4rem}
+.ts-notes{display:flex;gap:.7rem;margin-top:.8rem}
+.ts-note{flex:1;border:1px solid var(--line);border-radius:14px;padding:.75rem .9rem;background:rgba(255,255,255,.025)}
+.ts-note h3{margin:0 0 .28rem;font-size:.84rem;font-weight:800;color:var(--ink);display:flex;align-items:center;gap:.5rem}
+.ts-note h3 .dot{width:11px;height:11px;border-radius:50%;flex:none;display:inline-block}
+.ts-note p{margin:0;font-size:.82rem;line-height:1.55;color:var(--muted)}
+.ts-note p b{color:var(--ink)}
+@media (max-width:760px){.ts-notes{flex-direction:column}}
+.ts-seq{margin-top:.95rem;border-top:1px solid var(--line);padding-top:.85rem;text-align:center;
+  font-size:.8rem;line-height:1.7;color:var(--muted)}
+.ts-seq b{display:block;font-size:.66rem;font-weight:800;letter-spacing:.3em;color:var(--faint);
+  text-transform:uppercase;margin-bottom:.3rem}
+.ts-seq .hl2{color:var(--cyan);font-weight:700}
+.ts-chips{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin-top:.95rem}
+.ts-chip{border:1px solid var(--line);border-radius:999px;padding:.3rem .85rem;font-size:.76rem;color:var(--muted)}
+.ts-chip b{color:var(--ink)}
+.ts-cap{max-width:700px;margin:.95rem auto 0;text-align:center;color:var(--faint);font-size:.78rem;line-height:1.6}
+.ts-ptcl{animation:tsPtFloat var(--pd,16s) ease-in-out var(--pdel,0s) infinite alternate}
+@keyframes tsPtFloat{from{transform:translate(0,0)}to{transform:translate(var(--px,10px),var(--py,-14px))}}
+.ts-lbl{opacity:0;animation:tsLblIn 1.1s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes tsLblIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+.ts-ptr{stroke-dasharray:340;stroke-dashoffset:340;animation:tsDraw 1.3s cubic-bezier(.4,0,.2,1) forwards}
+@keyframes tsDraw{to{stroke-dashoffset:0}}
+[data-theme="light"] .ts-stage .tsl-w{fill:#1b2436}
+[data-theme="light"] .ts-stage .tsl-s{fill:#4d5871}
+[data-theme="light"] .ts-stage .tsl-p{fill:#b45309}
+[data-theme="light"] .ts-stage .ts-ptr{stroke:#1b2436}
+@media (prefers-reduced-motion:reduce){
+  .ts-ptcl,.ts-lbl,.ts-ptr{animation:none !important}
+  .ts-lbl{opacity:1}.ts-ptr{stroke-dashoffset:0}
+}
+</style>
+<section class="ts-stage" aria-label="The tesamorelin molecule">
+  <div class="ts-kicker">The Molecule <b>·</b> Tesamorelin (TH9507)</div>
+  <h2 class="ts-h">The body&rsquo;s own signal, with one edit</h2>
+  <p class="ts-sub">Tesamorelin is a full-length copy of <strong>GHRH</strong> — the brain&rsquo;s 44-residue &ldquo;release growth hormone&rdquo; signal — with a single chemical cap added at the front to keep it from being shredded in minutes. Watch it flex: a real peptide chain is never sitting still.</p>
+  <svg id="tsSvg" viewBox="0 0 1000 560" role="img" aria-label="Animated schematic of the tesamorelin molecule: a 44-residue chain flowing in a wave, with a hexenoyl cap on the first residue">
+      <defs>
+        <linearGradient id="tsGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#b79bff"/><stop offset="50%" stop-color="#c9f65e"/><stop offset="100%" stop-color="#b79bff"/>
+        </linearGradient>
+        <radialGradient id="tsNeb" cx="50%" cy="46%" r="55%">
+          <stop offset="0%" stop-color="#4d7c0f" stop-opacity=".20"/><stop offset="100%" stop-color="#4d7c0f" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <ellipse cx="500" cy="262" rx="470" ry="252" fill="url(#tsNeb)"/>
+      <g fill="#bfe0ff">
+        <circle class="ts-ptcl" style="--pd:16s;--px:12px;--py:-14px" cx="150" cy="70" r="2.4" opacity=".5"/>
+        <circle class="ts-ptcl" style="--pd:20s;--pdel:-7s;--px:-12px;--py:-10px" cx="880" cy="500" r="2.1" opacity=".45"/>
+        <circle class="ts-ptcl" style="--pd:15s;--pdel:-4s;--px:10px;--py:12px" cx="70" cy="470" r="2" opacity=".45"/>
+        <circle class="ts-ptcl" style="--pd:22s;--pdel:-11s;--px:-9px;--py:13px" cx="640" cy="52" r="2.2" opacity=".4"/>
+        <circle class="ts-ptcl" style="--pd:17s;--pdel:-3s;--px:13px;--py:-11px" cx="420" cy="516" r="2" opacity=".45"/>
+      </g>
+      <path id="tsCapPath" d="M150.0 335.4 L124.0 321.4 L100.0 305.4 L78.0 313.4 L58.0 301.4" fill="none" stroke="#fbbf24" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+      <path d="M98.0 314.4 L76.0 322.4" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+      <path id="tsBackboneGlow" d="M150.0 335.4 Q166.3 356.3, 175.2 365.9 Q184.0 375.5, 194.1 383.8 Q204.2 392.2, 216.0 397.9 Q227.8 403.6, 240.8 404.4 Q253.8 405.3, 266.0 400.8 Q278.3 396.3, 288.9 388.5 Q299.5 380.7, 308.7 371.4 Q317.8 362.2, 326.2 351.9 Q334.5 341.6, 342.2 331.0 Q349.8 320.4, 357.1 309.5 Q364.4 298.6, 371.5 287.6 Q378.5 276.5, 385.5 265.4 Q392.5 254.3, 399.6 243.0 Q406.6 231.8, 413.7 220.9 Q420.8 210.0, 428.2 199.0 Q435.7 188.1, 443.6 177.6 Q451.4 167.1, 460.0 157.2 Q468.5 147.2, 478.1 138.4 Q487.6 129.5, 498.8 122.6 Q510.0 115.7, 522.7 112.8 Q535.3 110.0, 548.1 112.7 Q560.9 115.4, 572.1 122.3 Q583.3 129.1, 592.9 138.0 Q602.5 146.9, 611.1 156.8 Q619.6 166.7, 627.6 177.3 Q635.6 187.9, 642.9 198.7 Q650.3 209.5, 657.5 220.5 Q664.6 231.6, 671.6 242.7 Q678.6 253.7, 685.6 264.9 Q692.5 276.0, 699.6 287.0 Q706.7 298.1, 714.0 309.0 Q721.2 319.9, 728.9 330.5 Q736.6 341.2, 744.8 351.4 Q753.1 361.5, 762.3 371.0 Q771.5 380.4, 782.0 388.2 Q792.6 396.0, 804.7 400.6 Q816.9 405.2, 830.0 404.4 Q843.1 403.7, 854.8 398.1 Q866.6 392.5, 876.8 384.3 Q886.9 376.0, 895.8 366.3 Q904.8 356.7, 912.9 346.2 Q921.1 335.8, 928.5 325.2 L936.0 314.6" fill="none" stroke="#c9f65e" stroke-width="8" stroke-linecap="round" opacity=".12"/>
+      <path id="tsBackbone" d="M150.0 335.4 Q166.3 356.3, 175.2 365.9 Q184.0 375.5, 194.1 383.8 Q204.2 392.2, 216.0 397.9 Q227.8 403.6, 240.8 404.4 Q253.8 405.3, 266.0 400.8 Q278.3 396.3, 288.9 388.5 Q299.5 380.7, 308.7 371.4 Q317.8 362.2, 326.2 351.9 Q334.5 341.6, 342.2 331.0 Q349.8 320.4, 357.1 309.5 Q364.4 298.6, 371.5 287.6 Q378.5 276.5, 385.5 265.4 Q392.5 254.3, 399.6 243.0 Q406.6 231.8, 413.7 220.9 Q420.8 210.0, 428.2 199.0 Q435.7 188.1, 443.6 177.6 Q451.4 167.1, 460.0 157.2 Q468.5 147.2, 478.1 138.4 Q487.6 129.5, 498.8 122.6 Q510.0 115.7, 522.7 112.8 Q535.3 110.0, 548.1 112.7 Q560.9 115.4, 572.1 122.3 Q583.3 129.1, 592.9 138.0 Q602.5 146.9, 611.1 156.8 Q619.6 166.7, 627.6 177.3 Q635.6 187.9, 642.9 198.7 Q650.3 209.5, 657.5 220.5 Q664.6 231.6, 671.6 242.7 Q678.6 253.7, 685.6 264.9 Q692.5 276.0, 699.6 287.0 Q706.7 298.1, 714.0 309.0 Q721.2 319.9, 728.9 330.5 Q736.6 341.2, 744.8 351.4 Q753.1 361.5, 762.3 371.0 Q771.5 380.4, 782.0 388.2 Q792.6 396.0, 804.7 400.6 Q816.9 405.2, 830.0 404.4 Q843.1 403.7, 854.8 398.1 Q866.6 392.5, 876.8 384.3 Q886.9 376.0, 895.8 366.3 Q904.8 356.7, 912.9 346.2 Q921.1 335.8, 928.5 325.2 L936.0 314.6" fill="none" stroke="url(#tsGrad)" stroke-width="3" stroke-linecap="round"/>
+      <g id="tsCapNodes">
+        <g class="ts-tnode" data-ox="-26" data-oy="-14"><circle cx="124.0" cy="321.4" r="5.5" fill="#0d1020" stroke="#fbbf24" stroke-width="2"/></g>
+        <g class="ts-tnode" data-ox="-50" data-oy="-30"><circle cx="100.0" cy="305.4" r="5.5" fill="#0d1020" stroke="#fbbf24" stroke-width="2"/></g>
+        <g class="ts-tnode" data-ox="-72" data-oy="-22"><circle cx="78.0" cy="313.4" r="4.8" fill="#fbbf24"/></g>
+        <g class="ts-tnode" data-ox="-92" data-oy="-34"><circle cx="58.0" cy="301.4" r="6.5" fill="#fbbf24"/></g>
+      </g>
+      <g id="tsNodes">
+        <g class="ts-node" data-bx="150.0" data-by="335.4"><circle cx="150.0" cy="335.4" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="150.0" y="339.4" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">Y</text></g>
+        <g class="ts-node" data-bx="166.3" data-by="356.3"><circle cx="166.3" cy="356.3" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="166.3" y="360.3" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">A</text></g>
+        <g class="ts-node" data-bx="184.0" data-by="375.5"><circle cx="184.0" cy="375.5" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="184.0" y="379.5" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">D</text></g>
+        <g class="ts-node" data-bx="204.2" data-by="392.2"><circle cx="204.2" cy="392.2" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="204.2" y="396.2" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">A</text></g>
+        <g class="ts-node" data-bx="227.8" data-by="403.6"><circle cx="227.8" cy="403.6" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="227.8" y="407.6" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">I</text></g>
+        <g class="ts-node" data-bx="253.8" data-by="405.3"><circle cx="253.8" cy="405.3" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="253.8" y="409.3" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">F</text></g>
+        <g class="ts-node" data-bx="278.3" data-by="396.3"><circle cx="278.3" cy="396.3" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="278.3" y="400.3" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">T</text></g>
+        <g class="ts-node" data-bx="299.5" data-by="380.7"><circle cx="299.5" cy="380.7" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="299.5" y="384.7" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">N</text></g>
+        <g class="ts-node" data-bx="317.8" data-by="362.2"><circle cx="317.8" cy="362.2" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="317.8" y="366.2" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">S</text></g>
+        <g class="ts-node" data-bx="334.5" data-by="341.6"><circle cx="334.5" cy="341.6" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="334.5" y="345.6" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">Y</text></g>
+        <g class="ts-node" data-bx="349.8" data-by="320.4"><circle cx="349.8" cy="320.4" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="349.8" y="324.4" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">R</text></g>
+        <g class="ts-node" data-bx="364.4" data-by="298.6"><circle cx="364.4" cy="298.6" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="364.4" y="302.6" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">K</text></g>
+        <g class="ts-node" data-bx="378.5" data-by="276.5"><circle cx="378.5" cy="276.5" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="378.5" y="280.5" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">V</text></g>
+        <g class="ts-node" data-bx="392.5" data-by="254.3"><circle cx="392.5" cy="254.3" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="392.5" y="258.3" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">L</text></g>
+        <g class="ts-node" data-bx="406.6" data-by="231.8"><circle cx="406.6" cy="231.8" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="406.6" y="235.8" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">G</text></g>
+        <g class="ts-node" data-bx="420.8" data-by="210.0"><circle cx="420.8" cy="210.0" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="420.8" y="214.0" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">Q</text></g>
+        <g class="ts-node" data-bx="435.7" data-by="188.1"><circle cx="435.7" cy="188.1" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="435.7" y="192.1" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">L</text></g>
+        <g class="ts-node" data-bx="451.4" data-by="167.1"><circle cx="451.4" cy="167.1" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="451.4" y="171.1" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">S</text></g>
+        <g class="ts-node" data-bx="468.5" data-by="147.2"><circle cx="468.5" cy="147.2" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="468.5" y="151.2" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">A</text></g>
+        <g class="ts-node" data-bx="487.6" data-by="129.5"><circle cx="487.6" cy="129.5" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="487.6" y="133.5" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">R</text></g>
+        <g class="ts-node" data-bx="510.0" data-by="115.7"><circle cx="510.0" cy="115.7" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="510.0" y="119.7" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">K</text></g>
+        <g class="ts-node" data-bx="535.3" data-by="110.0"><circle cx="535.3" cy="110.0" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="535.3" y="114.0" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">L</text></g>
+        <g class="ts-node" data-bx="560.9" data-by="115.4"><circle cx="560.9" cy="115.4" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="560.9" y="119.4" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">L</text></g>
+        <g class="ts-node" data-bx="583.3" data-by="129.1"><circle cx="583.3" cy="129.1" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="583.3" y="133.1" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">Q</text></g>
+        <g class="ts-node" data-bx="602.5" data-by="146.9"><circle cx="602.5" cy="146.9" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="602.5" y="150.9" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">D</text></g>
+        <g class="ts-node" data-bx="619.6" data-by="166.7"><circle cx="619.6" cy="166.7" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="619.6" y="170.7" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">I</text></g>
+        <g class="ts-node" data-bx="635.6" data-by="187.9"><circle cx="635.6" cy="187.9" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="635.6" y="191.9" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">M</text></g>
+        <g class="ts-node" data-bx="650.3" data-by="209.5"><circle cx="650.3" cy="209.5" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="650.3" y="213.5" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">S</text></g>
+        <g class="ts-node" data-bx="664.6" data-by="231.6"><circle cx="664.6" cy="231.6" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="664.6" y="235.6" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">R</text></g>
+        <g class="ts-node" data-bx="678.6" data-by="253.7"><circle cx="678.6" cy="253.7" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="678.6" y="257.7" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">Q</text></g>
+        <g class="ts-node" data-bx="692.5" data-by="276.0"><circle cx="692.5" cy="276.0" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="692.5" y="280.0" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">Q</text></g>
+        <g class="ts-node" data-bx="706.7" data-by="298.1"><circle cx="706.7" cy="298.1" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="706.7" y="302.1" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">G</text></g>
+        <g class="ts-node" data-bx="721.2" data-by="319.9"><circle cx="721.2" cy="319.9" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="721.2" y="323.9" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">E</text></g>
+        <g class="ts-node" data-bx="736.6" data-by="341.2"><circle cx="736.6" cy="341.2" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="736.6" y="345.2" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">S</text></g>
+        <g class="ts-node" data-bx="753.1" data-by="361.5"><circle cx="753.1" cy="361.5" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="753.1" y="365.5" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">N</text></g>
+        <g class="ts-node" data-bx="771.5" data-by="380.4"><circle cx="771.5" cy="380.4" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="771.5" y="384.4" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">Q</text></g>
+        <g class="ts-node" data-bx="792.6" data-by="396.0"><circle cx="792.6" cy="396.0" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="792.6" y="400.0" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">E</text></g>
+        <g class="ts-node" data-bx="816.9" data-by="405.2"><circle cx="816.9" cy="405.2" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="816.9" y="409.2" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">R</text></g>
+        <g class="ts-node" data-bx="843.1" data-by="403.7"><circle cx="843.1" cy="403.7" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="843.1" y="407.7" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">G</text></g>
+        <g class="ts-node" data-bx="866.6" data-by="392.5"><circle cx="866.6" cy="392.5" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="866.6" y="396.5" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">A</text></g>
+        <g class="ts-node" data-bx="886.9" data-by="376.0"><circle cx="886.9" cy="376.0" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="886.9" y="380.0" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">R</text></g>
+        <g class="ts-node" data-bx="904.8" data-by="356.7"><circle cx="904.8" cy="356.7" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="904.8" y="360.7" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">A</text></g>
+        <g class="ts-node" data-bx="921.1" data-by="335.8"><circle cx="921.1" cy="335.8" r="12" fill="#b79bff" stroke="#0a0c17" stroke-width="1"/><text x="921.1" y="339.8" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">R</text></g>
+        <g class="ts-node" data-bx="936.0" data-by="314.6"><circle cx="936.0" cy="314.6" r="12" fill="#c9f65e" stroke="#0a0c17" stroke-width="1"/><text x="936.0" y="318.6" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0a0c14">L</text></g>
+      </g>
+      <g id="tsPulses">
+        <circle id="tsP1h" r="9" fill="#b79bff" opacity=".22"/><circle id="tsP1" r="3.6" fill="#fef08a"/>
+        <circle id="tsP2h" r="9" fill="#c9f65e" opacity=".22"/><circle id="tsP2" r="3.6" fill="#a5f3fc"/>
+        <circle id="tsP3h" r="8" fill="#fbbf24" opacity=".25"/><circle id="tsP3" r="3.2" fill="#fde68a"/>
+      </g>
+      <g font-family="inherit">
+        <g>
+          <line class="ts-ptr" style="animation-delay:.3s" x1="44" y1="190" x2="62" y2="288" stroke="#e8eefc" stroke-opacity=".6" stroke-width="1.2"/>
+          <g class="ts-lbl" style="animation-delay:.5s">
+            <text class="tsl-p" x="24" y="160" font-size="14.5" font-weight="800" letter-spacing="2.2" fill="#fde68a">TRANS-3-HEXENOYL CAP</text>
+            <text class="tsl-s" x="24" y="181" font-size="11.5" fill="#a9b1c9">the one edit · shields Tyr1 from enzymes</text>
+          </g>
+        </g>
+        <g>
+          <line class="ts-ptr" style="animation-delay:.8s" x1="928" y1="404" x2="933" y2="336" stroke="#e8eefc" stroke-opacity=".6" stroke-width="1.2"/>
+          <g class="ts-lbl" style="animation-delay:1s">
+            <text class="tsl-w" x="944" y="432" text-anchor="end" font-size="14.5" font-weight="800" letter-spacing="2.2" fill="#fff">C-TERMINUS</text>
+            <text class="tsl-s" x="944" y="453" text-anchor="end" font-size="11.5" fill="#a9b1c9">Leu44 · amidated (–NH₂)</text>
+          </g>
+        </g>
+      </g>
+    </svg>
+  <div class="ts-notes">
+    <div class="ts-note"><h3><span class="dot" style="background:#fbbf24"></span>The cap</h3><p>A <b>trans-3-hexenoyl group</b> clipped onto Tyr1 — the only difference from natural GHRH. It shields the chain&rsquo;s head from the enzymes that destroy GHRH within minutes.</p></div>
+    <div class="ts-note"><h3><span class="dot" style="background:#b79bff"></span>The working core</h3><p><b>Residues 1–29</b> carry the receptor signal — on their own they are sermorelin. This front stretch is what docks at the pituitary&rsquo;s GHRH receptor.</p></div>
+    <div class="ts-note"><h3><span class="dot" style="background:#c9f65e"></span>The full-length tail</h3><p><b>Residues 30–44</b> complete the natural hormone&rsquo;s full length, rounding out the molecule the way the body makes it — all 44 residues, nothing trimmed.</p></div>
+  </div>
+  <div class="ts-seq"><b>Primary sequence · 44 residues</b><span class="hl2">(trans-3-hexenoyl)</span>–Tyr–Ala–Asp–Ala–Ile–Phe–Thr–Asn–Ser–Tyr–Arg–Lys–Val–Leu–Gly–Gln–Leu–Ser–Ala–Arg–Lys–Leu–Leu–Gln–Asp–Ile–Met–Ser–Arg–Gln–Gln–Gly–Glu–Ser–Asn–Gln–Glu–Arg–Gly–Ala–Arg–Ala–Arg–Leu–NH₂</div>
+  <div class="ts-chips"><span class="ts-chip"><b>44</b> amino acids</span><span class="ts-chip"><b>&asymp;5,136 Da</b> molecular weight</span><span class="ts-chip"><b>GHRH</b> full-length copy</span><span class="ts-chip">half-life <b>~30 min</b></span></div>
+  <p class="ts-cap">Schematic of the primary structure — not a 3D fold. The motion is an artist’s impression of molecular flexibility: real chains flex constantly, but this loop is not a measured simulation.</p>
+</section>
+<script>
+(function(){
+  "use strict";
+  var svg = document.getElementById("tsSvg");
+  if (!svg) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var nodeEls = Array.prototype.slice.call(svg.querySelectorAll(".ts-node"));
+  var base = nodeEls.map(function(el){ return {x:+el.getAttribute("data-bx"), y:+el.getAttribute("data-by")}; });
+  var bp = document.getElementById("tsBackbone"), bg = document.getElementById("tsBackboneGlow");
+  var tailPath = document.getElementById("tsCapPath");
+  var tailEls = Array.prototype.slice.call(svg.querySelectorAll(".ts-tnode"));
+  var tailOff = tailEls.map(function(el){ return {x:+el.getAttribute("data-ox"), y:+el.getAttribute("data-oy")}; });
+  var pulses = [
+    {c:document.getElementById("tsP1"), h:document.getElementById("tsP1h"), sp:0.055, off:0.0, tail:false},
+    {c:document.getElementById("tsP2"), h:document.getElementById("tsP2h"), sp:0.041, off:0.45, tail:false},
+    {c:document.getElementById("tsP3"), h:document.getElementById("tsP3h"), sp:0.07, off:0.2, tail:true}
+  ];
+  function wave(i, t){
+    return {
+      x: 2.0*Math.sin(t*0.9 + i*0.42) + 1.0*Math.sin(t*1.6 + i*0.9),
+      y: 3.2*Math.sin(t*1.05 + i*0.38) + 1.3*Math.cos(t*0.6 + i*0.31)
+    };
+  }
+  function smooth(pts){
+    var d = "M" + pts[0].x.toFixed(1) + " " + pts[0].y.toFixed(1);
+    for (var i = 1; i < pts.length - 1; i++){
+      var mx = (pts[i].x + pts[i+1].x) / 2, my = (pts[i].y + pts[i+1].y) / 2;
+      d += " Q" + pts[i].x.toFixed(1) + " " + pts[i].y.toFixed(1) + ", " + mx.toFixed(1) + " " + my.toFixed(1);
+    }
+    return d + " L" + pts[pts.length-1].x.toFixed(1) + " " + pts[pts.length-1].y.toFixed(1);
+  }
+  function along(pts, u){
+    var f = u * (pts.length - 1), i = Math.min(Math.floor(f), pts.length - 2), fr = f - i;
+    return { x: pts[i].x + (pts[i+1].x - pts[i].x) * fr, y: pts[i].y + (pts[i+1].y - pts[i].y) * fr };
+  }
+  var running = false, rafId = null;
+  function frame(ms){
+    if (!running) return;
+    var t = ms / 1000;
+    var pts = base.map(function(b, i){ var w = wave(i, t); return {x: b.x + w.x, y: b.y + w.y}; });
+    var d = smooth(pts);
+    bp.setAttribute("d", d); bg.setAttribute("d", d);
+    nodeEls.forEach(function(el, i){
+      el.setAttribute("transform", "translate(" + (pts[i].x - base[i].x).toFixed(2) + " " + (pts[i].y - base[i].y).toFixed(2) + ")");
+    });
+    var A = pts[0], Ab = base[0];
+    var tp = tailOff.map(function(o, k){
+      var lag = 0.05*Math.sin(t*0.85 - k*0.4) + 0.02*Math.sin(t*1.3 - k*0.2);
+      var c = Math.cos(lag), s = Math.sin(lag);
+      return { x: A.x + o.x*c - o.y*s, y: A.y + o.x*s + o.y*c, bx: Ab.x + o.x, by: Ab.y + o.y };
+    });
+    tailPath.setAttribute("d", "M" + tp.map(function(p){ return p.x.toFixed(1) + " " + p.y.toFixed(1); }).join(" L"));
+    tailEls.forEach(function(el, k){
+      el.setAttribute("transform", "translate(" + (tp[k].x - tp[k].bx).toFixed(2) + " " + (tp[k].y - tp[k].by).toFixed(2) + ")");
+    });
+    pulses.forEach(function(p){
+      var u = (t * p.sp + p.off) % 1;
+      var pos = along(p.tail ? tp : pts, u);
+      p.c.setAttribute("cx", pos.x.toFixed(1)); p.c.setAttribute("cy", pos.y.toFixed(1));
+      p.h.setAttribute("cx", pos.x.toFixed(1)); p.h.setAttribute("cy", pos.y.toFixed(1));
+    });
+    rafId = requestAnimationFrame(frame);
+  }
+  function start(){ if (!running){ running = true; rafId = requestAnimationFrame(frame); } }
+  function stop(){ running = false; if (rafId) cancelAnimationFrame(rafId); }
+  if ("IntersectionObserver" in window){
+    new IntersectionObserver(function(es){ es.forEach(function(e){ e.isIntersecting ? start() : stop(); }); },
+      {rootMargin: "120px"}).observe(svg);
+  } else { start(); }
+  document.addEventListener("visibilitychange", function(){ document.hidden ? stop() : start(); });
+})();
+</script>
+
 
 <!-- ============ CHAPTER 1 ============ -->
 <section class="chapter" id="ch1">
@@ -669,21 +891,47 @@ mini-poll { display: block; }
   <h2>What <span class="hl">Tesamorelin</span> actually is</h2>
   <p class="lede">Tesamorelin is the odd one out in the peptide world: not a gray-market rumor, but a <strong>real prescription drug with an FDA label</strong>. It is a lab-built copy of GHRH &mdash; the brain&rsquo;s own &ldquo;release growth hormone&rdquo; signal &mdash; assembled as a 44-amino-acid chain.</p>
   <div class="diagram reveal">
-    <svg viewBox="0 0 640 210" role="img" aria-label="Tesamorelin chain of 44 amino acids, a synthetic copy of growth-hormone-releasing hormone">
-      <text x="20" y="24" fill="#a9b1c9" font-size="13" font-weight="700" letter-spacing="2">TESAMORELIN &middot; 44 AMINO ACIDS</text>
-      <g id="tesachain"></g>
-      <text x="320" y="152" fill="#d3b334" font-size="13" font-weight="800" text-anchor="middle">GHRH ANALOG &middot; BINDS THE PITUITARY&rsquo;S GHRH RECEPTOR</text>
-      <text x="320" y="172" fill="#7f88a5" font-size="12" text-anchor="middle">Same signal the hypothalamus sends &mdash; rebuilt in a lab</text>
-      <rect x="170" y="186" width="300" height="4" rx="2" fill="#046978" opacity=".8"/>
-      <text x="320" y="206" fill="#046978" font-size="12" font-weight="700" text-anchor="middle">44 beads &mdash; each one an amino acid</text>
+    <svg viewBox="0 0 640 210" role="img" aria-label="Tesamorelin sequence map: the hexenoyl cap, then all 44 amino acids in order, split between the GHRH core (residues 1 to 29) and the full-length tail (30 to 44)">
+      <defs>
+        <linearGradient id="tsrBar" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#b79bff"/><stop offset="66%" stop-color="#a78bfa"/><stop offset="67%" stop-color="#c9f65e"/><stop offset="100%" stop-color="#a3e635"/>
+        </linearGradient>
+        <linearGradient id="tsrSweep" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".34"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <style>
+        .tsr-sweep{animation:tsrSweepMove 7.5s ease-in-out infinite alternate}
+        @keyframes tsrSweepMove{from{transform:translateX(0)}to{transform:translateX(500px)}}
+        @media (prefers-reduced-motion:reduce){.tsr-sweep{animation:none}}
+      </style>
+      <text x="20" y="24" fill="#a9b1c9" font-size="13" font-weight="700" letter-spacing="2">TESAMORELIN &middot; SEQUENCE MAP &middot; 44 AMINO ACIDS</text>
+      <text x="26" y="66" text-anchor="middle" font-size="8" font-weight="800" fill="#fbbf24">CAP</text>
+      <circle cx="26" cy="93" r="7" fill="#fbbf24" stroke="#0a0c17" stroke-width="1"/>
+      <line x1="33" y1="93" x2="41" y2="93" stroke="#fbbf24" stroke-width="2"/>
+      <text x="48.0" y="66" text-anchor="middle" font-size="8.6" font-weight="800" fill="#b79bff">Y</text><text x="61.2" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">A</text><text x="74.4" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">D</text><text x="87.6" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">A</text><text x="100.8" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">I</text><text x="114.0" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">F</text><text x="127.2" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">T</text><text x="140.4" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">N</text><text x="153.6" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">S</text><text x="166.8" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">Y</text><text x="180.0" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">R</text><text x="193.2" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">K</text><text x="206.4" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">V</text><text x="219.6" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">L</text><text x="232.8" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">G</text><text x="246.0" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">Q</text><text x="259.2" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">L</text><text x="272.4" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">S</text><text x="285.6" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">A</text><text x="298.8" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">R</text><text x="312.0" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">K</text><text x="325.2" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">L</text><text x="338.4" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">L</text><text x="351.6" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">Q</text><text x="364.8" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">D</text><text x="378.0" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">I</text><text x="391.2" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">M</text><text x="404.4" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">S</text><text x="417.6" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">R</text><text x="430.8" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">Q</text><text x="444.0" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">Q</text><text x="457.2" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">G</text><text x="470.4" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">E</text><text x="483.6" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">S</text><text x="496.8" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">N</text><text x="510.0" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">Q</text><text x="523.2" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">E</text><text x="536.4" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">R</text><text x="549.6" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">G</text><text x="562.8" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">A</text><text x="576.0" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">R</text><text x="589.2" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">A</text><text x="602.4" y="66" text-anchor="middle" font-size="8.6" font-weight="600" fill="#a9b1c9">R</text><text x="615.6" y="66" text-anchor="middle" font-size="8.6" font-weight="800" fill="#c9f65e">L</text>
+      <rect x="40" y="90.4" width="582" height="5.2" rx="2.6" fill="url(#tsrBar)" opacity=".55"/>
+      <circle cx="48.0" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="61.2" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="74.4" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="87.6" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="100.8" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="114.0" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="127.2" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="140.4" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="153.6" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="166.8" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="180.0" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="193.2" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="206.4" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="219.6" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="232.8" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="246.0" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="259.2" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="272.4" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="285.6" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="298.8" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="312.0" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="325.2" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="338.4" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="351.6" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="364.8" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="378.0" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="391.2" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="404.4" cy="93" r="5.6" fill="#a78bfa" stroke="#0a0c17" stroke-width=".8"/><circle cx="417.6" cy="93" r="5.6" fill="#b79bff" stroke="#0a0c17" stroke-width=".8"/><circle cx="430.8" cy="93" r="5.6" fill="#a3e635" stroke="#0a0c17" stroke-width=".8"/><circle cx="444.0" cy="93" r="5.6" fill="#c9f65e" stroke="#0a0c17" stroke-width=".8"/><circle cx="457.2" cy="93" r="5.6" fill="#a3e635" stroke="#0a0c17" stroke-width=".8"/><circle cx="470.4" cy="93" r="5.6" fill="#c9f65e" stroke="#0a0c17" stroke-width=".8"/><circle cx="483.6" cy="93" r="5.6" fill="#a3e635" stroke="#0a0c17" stroke-width=".8"/><circle cx="496.8" cy="93" r="5.6" fill="#c9f65e" stroke="#0a0c17" stroke-width=".8"/><circle cx="510.0" cy="93" r="5.6" fill="#a3e635" stroke="#0a0c17" stroke-width=".8"/><circle cx="523.2" cy="93" r="5.6" fill="#c9f65e" stroke="#0a0c17" stroke-width=".8"/><circle cx="536.4" cy="93" r="5.6" fill="#a3e635" stroke="#0a0c17" stroke-width=".8"/><circle cx="549.6" cy="93" r="5.6" fill="#c9f65e" stroke="#0a0c17" stroke-width=".8"/><circle cx="562.8" cy="93" r="5.6" fill="#a3e635" stroke="#0a0c17" stroke-width=".8"/><circle cx="576.0" cy="93" r="5.6" fill="#c9f65e" stroke="#0a0c17" stroke-width=".8"/><circle cx="589.2" cy="93" r="5.6" fill="#a3e635" stroke="#0a0c17" stroke-width=".8"/><circle cx="602.4" cy="93" r="5.6" fill="#c9f65e" stroke="#0a0c17" stroke-width=".8"/><circle cx="615.6" cy="93" r="5.6" fill="#a3e635" stroke="#0a0c17" stroke-width=".8"/>
+      <rect class="tsr-sweep" x="40" y="84" width="82" height="18" rx="9" fill="url(#tsrSweep)"/>
+      <text x="48.0" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">1</text><text x="100.8" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">5</text><text x="166.8" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">10</text><text x="232.8" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">15</text><text x="298.8" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">20</text><text x="364.8" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">25</text><text x="430.8" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">30</text><text x="496.8" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">35</text><text x="562.8" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">40</text><text x="615.6" y="118" text-anchor="middle" font-size="8" fill="#7f88a5">44</text>
+      <g stroke="#a78bfa" stroke-width="1.4">
+        <line x1="48.0" y1="128" x2="48.0" y2="134"/><line x1="48.0" y1="134" x2="417.6" y2="134"/><line x1="417.6" y1="128" x2="417.6" y2="134"/>
+      </g>
+      <g stroke="#a3e635" stroke-width="1.4">
+        <line x1="430.8" y1="128" x2="430.8" y2="134"/><line x1="430.8" y1="134" x2="615.6" y2="134"/><line x1="615.6" y1="128" x2="615.6" y2="134"/>
+      </g>
+      <text x="232.8" y="150" text-anchor="middle" font-size="11" font-weight="800" letter-spacing="1.2" fill="#b79bff">GHRH CORE &middot; 1&ndash;29 &middot; THE WORKING SIGNAL</text>
+      <text x="523.2" y="150" text-anchor="middle" font-size="11" font-weight="800" letter-spacing="1.2" fill="#c9f65e">TAIL &middot; 30&ndash;44</text>
+      <rect x="170" y="160" width="300" height="4" rx="2" fill="#4d7c0f" opacity=".8"/>
+      <text x="320" y="182" fill="#b79bff" font-size="12.5" font-weight="800" text-anchor="middle">GHRH ANALOG &middot; BINDS THE PITUITARY&rsquo;S GHRH RECEPTOR</text>
+      <text x="320" y="201" fill="#7f88a5" font-size="11.5" text-anchor="middle">Same signal the hypothalamus sends &mdash; rebuilt in a lab</text>
     </svg>
-    <script>(function(){var g=document.getElementById('tesachain');if(!g)return;var NS='http://www.w3.org/2000/svg';for(var i=0;i<44;i++){var c=document.createElementNS(NS,'circle');c.setAttribute('cx',36+i*13.4);c.setAttribute('cy',93);c.setAttribute('r',i%11===0?8:5.5);c.setAttribute('fill',i%11===0?'#046978':'#2a3352');if(i%11===0)c.setAttribute('stroke','#d3b334'),c.setAttribute('stroke-width','2');g.appendChild(c);}})();</script>
-    <div class="cap">Each bead is one amino acid. The highlighted beads mark every eleventh link &mdash; the full 44-link chain is the drug.</div>
+  <div class="cap">The molecule as a map: the amber cap is the hexenoyl group on Tyr1, every letter is one amino acid in order, the violet stretch (1&ndash;29) is the working GHRH core, and the lime stretch (30&ndash;44) completes the full-length hormone.</div>
   </div>
   <div class="grid3">
-    <div class="card sky reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="9" width="16" height="7" rx="3.5" transform="rotate(-25 12 12)"/><line x1="12" y1="6.2" x2="12" y2="17.8" transform="rotate(-25 12 12)"/></svg></div><h3>An actual prescription drug</h3><p>FDA-approved in <strong>2010 as Egrifta</strong> for HIV-associated lipodystrophy &mdash; excess visceral belly fat in people with HIV. Pharmacy-dispensed, prescription-only: the opposite of a research chemical.</p></div>
-    <div class="card teal reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 4A4.5 4.5 0 0 0 5 8.5C3.2 9.4 3.2 12 5 12.9c-.7 2.6 1.8 4.4 3.9 3.7.9 1.7 4 1.7 4.9 0 2.1.7 4.6-1.1 3.9-3.7 1.8-.9 1.8-3.5 0-4.4A4.5 4.5 0 0 0 13.5 4c-.9-.8-3.1-.8-4 0z"/><path d="M12 8v8"/></svg></div><h3>A copy of a brain hormone</h3><p>GHRH is made by the <strong>hypothalamus</strong> and tells the pituitary gland to release growth hormone. Tesamorelin is a synthetic 44-amino-acid version of that exact signal.</p></div>
-    <div class="card org reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1.2" fill="#d3b334" stroke="none"/></svg></div><h3>One approved use</h3><p>The label covers <strong>HIV lipodystrophy only</strong>. Every other use people talk about online &mdash; anti-aging, fat loss, brain health &mdash; is off-label or investigational.</p></div>
+    <div class="card sky reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="9" width="16" height="7" rx="3.5" transform="rotate(-25 12 12)"/><line x1="12" y1="6.2" x2="12" y2="17.8" transform="rotate(-25 12 12)"/></svg></div><h3>An actual prescription drug</h3><p>FDA-approved in <strong>2010 as Egrifta</strong> for HIV-associated lipodystrophy &mdash; excess visceral belly fat in people with HIV. Pharmacy-dispensed, prescription-only: the opposite of a research chemical.</p></div>
+    <div class="card teal reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 4A4.5 4.5 0 0 0 5 8.5C3.2 9.4 3.2 12 5 12.9c-.7 2.6 1.8 4.4 3.9 3.7.9 1.7 4 1.7 4.9 0 2.1.7 4.6-1.1 3.9-3.7 1.8-.9 1.8-3.5 0-4.4A4.5 4.5 0 0 0 13.5 4c-.9-.8-3.1-.8-4 0z"/><path d="M12 8v8"/></svg></div><h3>A copy of a brain hormone</h3><p>GHRH is made by the <strong>hypothalamus</strong> and tells the pituitary gland to release growth hormone. Tesamorelin is a synthetic 44-amino-acid version of that exact signal.</p></div>
+    <div class="card org reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1.2" fill="#b79bff" stroke="none"/></svg></div><h3>One approved use</h3><p>The label covers <strong>HIV lipodystrophy only</strong>. Every other use people talk about online &mdash; anti-aging, fat loss, brain health &mdash; is off-label or investigational.</p></div>
   </div>
   <div class="plain reveal"><div class="plabel">Plain English</div><p>Your brain has a <strong>&ldquo;send growth hormone&rdquo; button</strong> (GHRH). Tesamorelin is a lab-made finger that presses it &mdash; and unlike most peptides on the internet, this finger went through real clinical trials, earned an FDA label, and sits in real pharmacies. That makes its story very different from the usual peptide tale.</p></div>
 </section>
@@ -699,20 +947,20 @@ mini-poll { display: block; }
   <div class="diagram reveal">
     <svg viewBox="0 0 640 260" role="img" aria-label="Timeline: GHRH research, 2010 FDA approval, HIV lipodystrophy use, then internet curiosity">
       <g font-size="13" font-weight="800" text-anchor="middle">
-        <rect x="20" y="70" width="128" height="120" rx="14" fill="#151b36" stroke="#d3b334" stroke-width="2"/>
-        <text x="84" y="108" fill="#d3b334" font-size="11">1990s&ndash;2000s</text>
+        <rect x="20" y="70" width="128" height="120" rx="14" fill="#151b36" stroke="#b79bff" stroke-width="2"/>
+        <text x="84" y="108" fill="#b79bff" font-size="11">1990s&ndash;2000s</text>
         <text x="84" y="132" fill="#a9b1c9" font-size="11" font-weight="600">GHRH studied</text>
         <text x="84" y="148" fill="#a9b1c9" font-size="11" font-weight="600">as a GH booster</text>
-        <rect x="172" y="70" width="128" height="120" rx="14" fill="#151b36" stroke="#046978" stroke-width="2"/>
-        <text x="236" y="108" fill="#046978" font-size="11">2010</text>
+        <rect x="172" y="70" width="128" height="120" rx="14" fill="#151b36" stroke="#4d7c0f" stroke-width="2"/>
+        <text x="236" y="108" fill="#4d7c0f" font-size="11">2010</text>
         <text x="236" y="132" fill="#a9b1c9" font-size="11" font-weight="600">FDA approves</text>
         <text x="236" y="148" fill="#a9b1c9" font-size="11" font-weight="600">Egrifta</text>
-        <rect x="324" y="70" width="128" height="120" rx="14" fill="#151b36" stroke="#d3b334" stroke-width="2"/>
-        <text x="388" y="108" fill="#d3b334" font-size="11">2010s</text>
+        <rect x="324" y="70" width="128" height="120" rx="14" fill="#151b36" stroke="#b79bff" stroke-width="2"/>
+        <text x="388" y="108" fill="#b79bff" font-size="11">2010s</text>
         <text x="388" y="132" fill="#a9b1c9" font-size="11" font-weight="600">Prescribed for HIV</text>
         <text x="388" y="148" fill="#a9b1c9" font-size="11" font-weight="600">lipodystrophy</text>
-        <rect x="476" y="70" width="128" height="120" rx="14" fill="#151b36" stroke="#046978" stroke-width="2" stroke-dasharray="7 5"/>
-        <text x="540" y="108" fill="#046978" font-size="11">2020s</text>
+        <rect x="476" y="70" width="128" height="120" rx="14" fill="#151b36" stroke="#4d7c0f" stroke-width="2" stroke-dasharray="7 5"/>
+        <text x="540" y="108" fill="#4d7c0f" font-size="11">2020s</text>
         <text x="540" y="132" fill="#a9b1c9" font-size="11" font-weight="600">Internet discovers</text>
         <text x="540" y="148" fill="#a9b1c9" font-size="11" font-weight="600">it for fat loss</text>
       </g>
@@ -741,20 +989,20 @@ mini-poll { display: block; }
   <div class="diagram reveal">
     <svg viewBox="0 0 640 240" role="img" aria-label="Four-step mechanism: GHRH signal, pituitary GH release, IGF-1 rise, visceral fat breakdown">
       <g font-size="13" font-weight="800" text-anchor="middle">
-        <rect x="20" y="60" width="128" height="120" rx="14" fill="#151b36" stroke="#d3b334" stroke-width="2"/>
-        <text x="84" y="105" fill="#d3b334">1 &middot; SIGNAL</text>
+        <rect x="20" y="60" width="128" height="120" rx="14" fill="#151b36" stroke="#b79bff" stroke-width="2"/>
+        <text x="84" y="105" fill="#b79bff">1 &middot; SIGNAL</text>
         <text x="84" y="130" fill="#a9b1c9" font-size="11" font-weight="600">GHRH copy binds</text>
         <text x="84" y="146" fill="#a9b1c9" font-size="11" font-weight="600">the pituitary</text>
-        <rect x="172" y="60" width="128" height="120" rx="14" fill="#151b36" stroke="#046978" stroke-width="2"/>
-        <text x="236" y="105" fill="#046978">2 &middot; RELEASE</text>
+        <rect x="172" y="60" width="128" height="120" rx="14" fill="#151b36" stroke="#4d7c0f" stroke-width="2"/>
+        <text x="236" y="105" fill="#4d7c0f">2 &middot; RELEASE</text>
         <text x="236" y="130" fill="#a9b1c9" font-size="11" font-weight="600">Pituitary releases</text>
         <text x="236" y="146" fill="#a9b1c9" font-size="11" font-weight="600">its own GH</text>
-        <rect x="324" y="60" width="128" height="120" rx="14" fill="#151b36" stroke="#d3b334" stroke-width="2"/>
-        <text x="388" y="105" fill="#d3b334">3 &middot; AMPLIFY</text>
+        <rect x="324" y="60" width="128" height="120" rx="14" fill="#151b36" stroke="#b79bff" stroke-width="2"/>
+        <text x="388" y="105" fill="#b79bff">3 &middot; AMPLIFY</text>
         <text x="388" y="130" fill="#a9b1c9" font-size="11" font-weight="600">Liver converts GH</text>
         <text x="388" y="146" fill="#a9b1c9" font-size="11" font-weight="600">into IGF-1</text>
-        <rect x="476" y="60" width="128" height="120" rx="14" fill="#151b36" stroke="#046978" stroke-width="2"/>
-        <text x="540" y="105" fill="#046978">4 &middot; BURN</text>
+        <rect x="476" y="60" width="128" height="120" rx="14" fill="#151b36" stroke="#4d7c0f" stroke-width="2"/>
+        <text x="540" y="105" fill="#4d7c0f">4 &middot; BURN</text>
         <text x="540" y="130" fill="#a9b1c9" font-size="11" font-weight="600">Visceral fat</text>
         <text x="540" y="146" fill="#a9b1c9" font-size="11" font-weight="600">breakdown rises</text>
       </g>
@@ -769,37 +1017,37 @@ mini-poll { display: block; }
   <div class="diagram mech reveal">
     <svg viewBox="0 0 640 300" role="img" aria-label="Animated journey: dock, pulse, convert, target">
       <g class="ma-step" style="animation-delay:0s">
-        <polygon points="58,97 80,84 102,97 102,123 80,136 58,123" fill="none" stroke="#d3b334" stroke-width="3"/>
-        <circle cx="34" cy="110" r="7" fill="#046978" class="ma-bob"/>
-        <text x="80" y="180" fill="#d3b334" font-size="13" font-weight="800" text-anchor="middle">1 &#183; DOCK</text>
+        <polygon points="58,97 80,84 102,97 102,123 80,136 58,123" fill="none" stroke="#b79bff" stroke-width="3"/>
+        <circle cx="34" cy="110" r="7" fill="#4d7c0f" class="ma-bob"/>
+        <text x="80" y="180" fill="#b79bff" font-size="13" font-weight="800" text-anchor="middle">1 &#183; DOCK</text>
         <text x="80" y="198" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">GHRH copy binds</text>
       </g>
       <g class="ma-step" style="animation-delay:1.5s">
-        <circle cx="240" cy="110" r="16" fill="none" stroke="#d3b334" stroke-width="2" class="ma-ping"/>
-        <circle cx="240" cy="110" r="16" fill="none" stroke="#d3b334" stroke-width="2" class="ma-ping" style="animation-delay:2.2s"/>
-        <circle cx="240" cy="110" r="16" fill="#046978"/>
-        <circle cx="240" cy="110" r="5" fill="#d3b334"/>
-        <text x="240" y="180" fill="#d3b334" font-size="13" font-weight="800" text-anchor="middle">2 &#183; PULSE</text>
+        <circle cx="240" cy="110" r="16" fill="none" stroke="#b79bff" stroke-width="2" class="ma-ping"/>
+        <circle cx="240" cy="110" r="16" fill="none" stroke="#b79bff" stroke-width="2" class="ma-ping" style="animation-delay:2.2s"/>
+        <circle cx="240" cy="110" r="16" fill="#4d7c0f"/>
+        <circle cx="240" cy="110" r="5" fill="#b79bff"/>
+        <text x="240" y="180" fill="#b79bff" font-size="13" font-weight="800" text-anchor="middle">2 &#183; PULSE</text>
         <text x="240" y="198" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">GH released</text>
       </g>
       <g class="ma-step" style="animation-delay:3s">
-        <path d="M365,95 Q365,75 390,75 L420,75 Q440,75 440,100 L440,125 Q440,145 415,145 L385,145 Q365,145 365,125 Z" fill="#046978" opacity=".55"/>
-        <circle cx="390" cy="58" r="4" fill="#d3b334" class="ma-bob"/>
-        <circle cx="412" cy="50" r="4" fill="#d3b334" class="ma-bob" style="animation-delay:1.2s"/>
-        <text x="400" y="180" fill="#d3b334" font-size="13" font-weight="800" text-anchor="middle">3 &#183; CONVERT</text>
+        <path d="M365,95 Q365,75 390,75 L420,75 Q440,75 440,100 L440,125 Q440,145 415,145 L385,145 Q365,145 365,125 Z" fill="#4d7c0f" opacity=".55"/>
+        <circle cx="390" cy="58" r="4" fill="#b79bff" class="ma-bob"/>
+        <circle cx="412" cy="50" r="4" fill="#b79bff" class="ma-bob" style="animation-delay:1.2s"/>
+        <text x="400" y="180" fill="#b79bff" font-size="13" font-weight="800" text-anchor="middle">3 &#183; CONVERT</text>
         <text x="400" y="198" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">Liver makes IGF-1</text>
       </g>
       <g class="ma-step" style="animation-delay:4.5s">
-        <ellipse cx="560" cy="110" rx="30" ry="24" fill="#d3b334" opacity=".4" class="ma-shrink"/>
-        <text x="560" y="180" fill="#d3b334" font-size="13" font-weight="800" text-anchor="middle">4 &#183; TARGET</text>
+        <ellipse cx="560" cy="110" rx="30" ry="24" fill="#b79bff" opacity=".4" class="ma-shrink"/>
+        <text x="560" y="180" fill="#b79bff" font-size="13" font-weight="800" text-anchor="middle">4 &#183; TARGET</text>
         <text x="560" y="198" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">Visceral fat</text>
       </g>
       <g stroke="#7f88a5" stroke-width="2" fill="none" stroke-dasharray="6 6" class="flow">
         <path d="M116,130 H204"/><path d="M276,130 H364"/><path d="M436,130 H524"/>
       </g>
-      <circle r="5" fill="#d3b334" class="ma-travel" style="offset-path:path('M116,130 H204')"/>
-      <circle r="5" fill="#d3b334" class="ma-travel" style="offset-path:path('M276,130 H364');animation-delay:1.3s"/>
-      <circle r="5" fill="#d3b334" class="ma-travel" style="offset-path:path('M436,130 H524');animation-delay:2.6s"/>
+      <circle r="5" fill="#b79bff" class="ma-travel" style="offset-path:path('M116,130 H204')"/>
+      <circle r="5" fill="#b79bff" class="ma-travel" style="offset-path:path('M276,130 H364');animation-delay:1.3s"/>
+      <circle r="5" fill="#b79bff" class="ma-travel" style="offset-path:path('M436,130 H524');animation-delay:2.6s"/>
       <text x="320" y="252" fill="#7f88a5" font-size="12" text-anchor="middle">What happens in the body &#8212; step by step</text>
       <text x="320" y="272" fill="#7f88a5" font-size="11" text-anchor="middle" opacity=".8">Each station lights up in turn &#8212; watch the signal travel</text>
     </svg>
@@ -809,17 +1057,17 @@ mini-poll { display: block; }
   <div class="diagram mech reveal">
     <svg viewBox="0 0 640 250" role="img" aria-label="GH to IGF-1 pathway through the liver">
       <text x="110" y="52" fill="#a9b1c9" font-size="12" font-weight="700" text-anchor="middle">GH pulses</text>
-      <path id="ma-ghpath" d="M130,125 C190,80 240,170 300,125" fill="none" stroke="#046978" stroke-width="2" stroke-dasharray="6 6" class="flow"/>
-      <circle r="5" fill="#d3b334" class="ma-travel" style="offset-path:path('M130,125 C190,80 240,170 300,125')"/>
-      <circle r="5" fill="#d3b334" class="ma-travel" style="offset-path:path('M130,125 C190,80 240,170 300,125');animation-delay:2s"/>
-      <path d="M325,90 Q325,70 350,70 L385,70 Q405,70 405,95 L405,150 Q405,170 380,170 L350,170 Q325,170 325,148 Z" fill="#046978" opacity=".55"/>
-      <text x="365" y="205" fill="#d3b334" font-size="13" font-weight="800" text-anchor="middle">Liver</text>
+      <path id="ma-ghpath" d="M130,125 C190,80 240,170 300,125" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-dasharray="6 6" class="flow"/>
+      <circle r="5" fill="#b79bff" class="ma-travel" style="offset-path:path('M130,125 C190,80 240,170 300,125')"/>
+      <circle r="5" fill="#b79bff" class="ma-travel" style="offset-path:path('M130,125 C190,80 240,170 300,125');animation-delay:2s"/>
+      <path d="M325,90 Q325,70 350,70 L385,70 Q405,70 405,95 L405,150 Q405,170 380,170 L350,170 Q325,170 325,148 Z" fill="#4d7c0f" opacity=".55"/>
+      <text x="365" y="205" fill="#b79bff" font-size="13" font-weight="800" text-anchor="middle">Liver</text>
       <text x="365" y="223" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">GH in, IGF-1 out</text>
       <text x="490" y="52" fill="#a9b1c9" font-size="12" font-weight="700" text-anchor="middle">IGF-1 travels on</text>
-      <path d="M425,125 C470,90 510,160 555,125" fill="none" stroke="#d3b334" stroke-width="2" stroke-dasharray="6 6" class="flow"/>
-      <circle r="5" fill="#d3b334" class="ma-travel" style="offset-path:path('M425,125 C470,90 510,160 555,125');animation-delay:1s"/>
-      <ellipse cx="570" cy="125" rx="26" ry="20" fill="#d3b334" opacity=".35" class="ma-shrink"/>
-      <text x="570" y="205" fill="#d3b334" font-size="13" font-weight="800" text-anchor="middle">Belly fat</text>
+      <path d="M425,125 C470,90 510,160 555,125" fill="none" stroke="#b79bff" stroke-width="2" stroke-dasharray="6 6" class="flow"/>
+      <circle r="5" fill="#b79bff" class="ma-travel" style="offset-path:path('M425,125 C470,90 510,160 555,125');animation-delay:1s"/>
+      <ellipse cx="570" cy="125" rx="26" ry="20" fill="#b79bff" opacity=".35" class="ma-shrink"/>
+      <text x="570" y="205" fill="#b79bff" font-size="13" font-weight="800" text-anchor="middle">Belly fat</text>
       <text x="570" y="223" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">Target tissue</text>
     </svg>
     <div class="cap">Growth hormone itself is short-lived &#8212; the liver stretches the message into IGF-1, which circulates far longer and does much of the metabolic talking.</div>
@@ -830,21 +1078,21 @@ mini-poll { display: block; }
       <text x="320" y="30" fill="#7f88a5" font-size="12" text-anchor="middle">Illustrative &#8212; not measured results</text>
       <g>
         <ellipse cx="170" cy="150" rx="95" ry="105" fill="#151b36" stroke="#7f88a5" stroke-width="2"/>
-        <ellipse cx="170" cy="150" rx="72" ry="82" fill="none" stroke="#046978" stroke-width="10" opacity=".5"/>
-        <ellipse cx="170" cy="150" rx="40" ry="50" fill="#d3b334" opacity=".45"/>
+        <ellipse cx="170" cy="150" rx="72" ry="82" fill="none" stroke="#4d7c0f" stroke-width="10" opacity=".5"/>
+        <ellipse cx="170" cy="150" rx="40" ry="50" fill="#b79bff" opacity=".45"/>
         <circle cx="158" cy="140" r="10" fill="#2a3352"/><circle cx="184" cy="160" r="12" fill="#2a3352"/>
         <text x="170" y="278" fill="#a9b1c9" font-size="13" font-weight="800" text-anchor="middle">Before</text>
       </g>
       <g>
         <ellipse cx="470" cy="150" rx="95" ry="105" fill="#151b36" stroke="#7f88a5" stroke-width="2"/>
-        <ellipse cx="470" cy="150" rx="72" ry="82" fill="none" stroke="#046978" stroke-width="10" opacity=".5"/>
-        <ellipse cx="470" cy="150" rx="40" ry="50" fill="#d3b334" opacity=".45" class="ma-shrink"/>
+        <ellipse cx="470" cy="150" rx="72" ry="82" fill="none" stroke="#4d7c0f" stroke-width="10" opacity=".5"/>
+        <ellipse cx="470" cy="150" rx="40" ry="50" fill="#b79bff" opacity=".45" class="ma-shrink"/>
         <circle cx="458" cy="140" r="10" fill="#2a3352"/><circle cx="484" cy="160" r="12" fill="#2a3352"/>
         <text x="470" y="278" fill="#a9b1c9" font-size="13" font-weight="800" text-anchor="middle">After</text>
       </g>
       <g font-size="11" fill="#a9b1c9">
-        <rect x="255" y="52" width="12" height="12" rx="3" fill="#046978" opacity=".7"/><text x="272" y="62">Surface fat</text>
-        <rect x="255" y="72" width="12" height="12" rx="3" fill="#d3b334" opacity=".6"/><text x="272" y="82">Deep fat</text>
+        <rect x="255" y="52" width="12" height="12" rx="3" fill="#4d7c0f" opacity=".7"/><text x="272" y="62">Surface fat</text>
+        <rect x="255" y="72" width="12" height="12" rx="3" fill="#b79bff" opacity=".6"/><text x="272" y="82">Deep fat</text>
       </g>
     </svg>
     <div class="cap">The trials measured deep (visceral) fat with scans &#8212; the shrinking green blob is a cartoon of that idea, not anyone&rsquo;s actual scan.</div>
@@ -853,23 +1101,23 @@ mini-poll { display: block; }
   <div class="diagram mech reveal">
     <svg viewBox="0 0 640 260" role="img" aria-label="Belly cross-section with numbered layers">
       <ellipse cx="200" cy="130" rx="100" ry="108" fill="#151b36" stroke="#7f88a5" stroke-width="2"/>
-      <ellipse cx="200" cy="130" rx="80" ry="88" fill="none" stroke="#046978" stroke-width="9" opacity=".55"/>
+      <ellipse cx="200" cy="130" rx="80" ry="88" fill="none" stroke="#4d7c0f" stroke-width="9" opacity=".55"/>
       <ellipse cx="200" cy="130" rx="62" ry="70" fill="none" stroke="#a9b1c9" stroke-width="4" opacity=".5"/>
-      <ellipse cx="200" cy="130" rx="34" ry="44" fill="#d3b334" opacity=".4"/>
+      <ellipse cx="200" cy="130" rx="34" ry="44" fill="#b79bff" opacity=".4"/>
       <circle cx="190" cy="122" r="10" fill="#2a3352"/><circle cx="214" cy="142" r="12" fill="#2a3352"/>
       <g font-size="11" font-weight="800" text-anchor="middle">
-        <circle cx="280" cy="92" r="10" fill="#0d1020" stroke="#d3b334" stroke-width="2"/><text x="280" y="96" fill="#d3b334">1</text>
-        <circle cx="300" cy="130" r="10" fill="#0d1020" stroke="#d3b334" stroke-width="2"/><text x="300" y="134" fill="#d3b334">2</text>
-        <circle cx="262" cy="152" r="10" fill="#0d1020" stroke="#d3b334" stroke-width="2"/><text x="262" y="156" fill="#d3b334">3</text>
-        <circle cx="200" cy="96" r="10" fill="#0d1020" stroke="#d3b334" stroke-width="2"/><text x="200" y="100" fill="#d3b334">4</text>
-        <circle cx="214" cy="142" r="10" fill="#0d1020" stroke="#d3b334" stroke-width="2"/><text x="214" y="146" fill="#d3b334">5</text>
+        <circle cx="280" cy="92" r="10" fill="#0d1020" stroke="#b79bff" stroke-width="2"/><text x="280" y="96" fill="#b79bff">1</text>
+        <circle cx="300" cy="130" r="10" fill="#0d1020" stroke="#b79bff" stroke-width="2"/><text x="300" y="134" fill="#b79bff">2</text>
+        <circle cx="262" cy="152" r="10" fill="#0d1020" stroke="#b79bff" stroke-width="2"/><text x="262" y="156" fill="#b79bff">3</text>
+        <circle cx="200" cy="96" r="10" fill="#0d1020" stroke="#b79bff" stroke-width="2"/><text x="200" y="100" fill="#b79bff">4</text>
+        <circle cx="214" cy="142" r="10" fill="#0d1020" stroke="#b79bff" stroke-width="2"/><text x="214" y="146" fill="#b79bff">5</text>
       </g>
       <g font-size="13" font-weight="700" fill="#a9b1c9">
-        <text x="380" y="80"><tspan fill="#d3b334" font-weight="800">1</tspan> Surface fat</text>
-        <text x="380" y="112"><tspan fill="#d3b334" font-weight="800">2</tspan> Skin</text>
-        <text x="380" y="144"><tspan fill="#d3b334" font-weight="800">3</tspan> Muscle</text>
-        <text x="380" y="176"><tspan fill="#d3b334" font-weight="800">4</tspan> Deep (visceral) fat</text>
-        <text x="380" y="208"><tspan fill="#d3b334" font-weight="800">5</tspan> Organs</text>
+        <text x="380" y="80"><tspan fill="#b79bff" font-weight="800">1</tspan> Surface fat</text>
+        <text x="380" y="112"><tspan fill="#b79bff" font-weight="800">2</tspan> Skin</text>
+        <text x="380" y="144"><tspan fill="#b79bff" font-weight="800">3</tspan> Muscle</text>
+        <text x="380" y="176"><tspan fill="#b79bff" font-weight="800">4</tspan> Deep (visceral) fat</text>
+        <text x="380" y="208"><tspan fill="#b79bff" font-weight="800">5</tspan> Organs</text>
       </g>
       <text x="320" y="252" fill="#7f88a5" font-size="11" text-anchor="middle">Tesamorelin&apos;s target is layer 4 &#8212; not the pinchable layer 1</text>
     </svg>
@@ -878,36 +1126,36 @@ mini-poll { display: block; }
 
   <div class="diagram mech reveal">
     <svg viewBox="0 0 640 210" role="img" aria-label="Timeline from start to downstream effects">
-      <path d="M60,110 H580" stroke="#046978" stroke-width="3"/>
-      <circle r="7" fill="#d3b334" class="ma-travel" style="offset-path:path('M60,110 H580');animation-duration:6s"/>
+      <path d="M60,110 H580" stroke="#4d7c0f" stroke-width="3"/>
+      <circle r="7" fill="#b79bff" class="ma-travel" style="offset-path:path('M60,110 H580');animation-duration:6s"/>
       <g class="ma-step" style="animation-delay:0s">
-        <circle cx="60" cy="110" r="10" fill="#d3b334"/><text x="60" y="70" fill="#d3b334" font-size="12" font-weight="800" text-anchor="middle">Start</text>
+        <circle cx="60" cy="110" r="10" fill="#b79bff"/><text x="60" y="70" fill="#b79bff" font-size="12" font-weight="800" text-anchor="middle">Start</text>
         <text x="60" y="152" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">Signal begins</text>
       </g>
       <g class="ma-step" style="animation-delay:1.5s">
-        <circle cx="220" cy="110" r="10" fill="#046978"/><text x="220" y="70" fill="#d3b334" font-size="12" font-weight="800" text-anchor="middle">Weeks</text>
+        <circle cx="220" cy="110" r="10" fill="#4d7c0f"/><text x="220" y="70" fill="#b79bff" font-size="12" font-weight="800" text-anchor="middle">Weeks</text>
         <text x="220" y="152" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">GH pulses rise</text>
       </g>
       <g class="ma-step" style="animation-delay:3s">
-        <circle cx="400" cy="110" r="10" fill="#046978"/><text x="400" y="70" fill="#d3b334" font-size="12" font-weight="800" text-anchor="middle">Month 3</text>
+        <circle cx="400" cy="110" r="10" fill="#4d7c0f"/><text x="400" y="70" fill="#b79bff" font-size="12" font-weight="800" text-anchor="middle">Month 3</text>
         <text x="400" y="152" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">IGF-1 steadies</text>
       </g>
       <g class="ma-step" style="animation-delay:4.5s">
-        <circle cx="580" cy="110" r="10" fill="#046978"/><text x="580" y="70" fill="#d3b334" font-size="12" font-weight="800" text-anchor="middle">Month 6</text>
+        <circle cx="580" cy="110" r="10" fill="#4d7c0f"/><text x="580" y="70" fill="#b79bff" font-size="12" font-weight="800" text-anchor="middle">Month 6</text>
         <text x="580" y="152" fill="#a9b1c9" font-size="11" font-weight="600" text-anchor="middle">Fat remeasured</text>
       </g>
       <text x="320" y="192" fill="#7f88a5" font-size="11" text-anchor="middle">Trial-shaped timeline &#8212; individual journeys vary</text>
     </svg>
     <div class="cap">Nothing here happens overnight: the hormone signal starts fast, but the measured fat change took months in trials.</div>
   </div>
-<div class="ebar"><div class="row"><span class="t">Pituitary GH release</span><span class="v">demonstrated in humans</span></div><div class="track"><div class="fill" style="--w:92%;background:linear-gradient(90deg,#046978,#d3b334)"></div></div><div class="note">Tesamorelin measurably raises growth-hormone pulses &mdash; the core pharmacology, confirmed in clinical studies.</div></div>
-  <div class="ebar"><div class="row"><span class="t">IGF-1 rise</span><span class="v">measured in trials</span></div><div class="track"><div class="fill" style="--w:85%;background:linear-gradient(90deg,#17022c,#046978)"></div></div><div class="note">IGF-1 (the liver&rsquo;s GH messenger) climbs on treatment &mdash; and is the lab value doctors monitor.</div></div>
-  <div class="ebar"><div class="row"><span class="t">Visceral fat reduction</span><span class="v">shown in phase 3</span></div><div class="track"><div class="fill" style="--w:78%;background:linear-gradient(90deg,#046978,#d3b334)"></div></div><div class="note">Deep belly fat shrank significantly vs placebo in the pivotal HIV-lipodystrophy trials.</div></div>
+<div class="ebar"><div class="row"><span class="t">Pituitary GH release</span><span class="v">demonstrated in humans</span></div><div class="track"><div class="fill" style="--w:92%;background:linear-gradient(90deg,#4d7c0f,#b79bff)"></div></div><div class="note">Tesamorelin measurably raises growth-hormone pulses &mdash; the core pharmacology, confirmed in clinical studies.</div></div>
+  <div class="ebar"><div class="row"><span class="t">IGF-1 rise</span><span class="v">measured in trials</span></div><div class="track"><div class="fill" style="--w:85%;background:linear-gradient(90deg,#2c0d08,#4d7c0f)"></div></div><div class="note">IGF-1 (the liver&rsquo;s GH messenger) climbs on treatment &mdash; and is the lab value doctors monitor.</div></div>
+  <div class="ebar"><div class="row"><span class="t">Visceral fat reduction</span><span class="v">shown in phase 3</span></div><div class="track"><div class="fill" style="--w:78%;background:linear-gradient(90deg,#4d7c0f,#b79bff)"></div></div><div class="note">Deep belly fat shrank significantly vs placebo in the pivotal HIV-lipodystrophy trials.</div></div>
   <div class="ebar"><div class="row"><span class="t">Anti-aging / longevity effects</span><span class="v">not demonstrated</span></div><div class="track"><div class="fill" style="--w:8%;background:linear-gradient(90deg,#3a4160,#3a4160)"></div></div><div class="note">Raising GH is not the same as reversing aging. No trial supports longevity claims.</div></div>
   
   <div class="dod reveal">
     <div class="do-card">
-      <h4><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#d3b334" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>What it does</h4>
+      <h4><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#b79bff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>What it does</h4>
       <ul>
         <li><strong>Raises the body&rsquo;s own GH pulses</strong> &mdash; demonstrated in human studies.</li>
         <li><strong>Raises IGF-1</strong> &mdash; the lab value clinicians monitor.</li>
@@ -916,7 +1164,7 @@ mini-poll { display: block; }
       </ul>
     </div>
     <div class="dont-card">
-      <h4><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#046978" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg>What it doesn&rsquo;t do</h4>
+      <h4><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4d7c0f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg>What it doesn&rsquo;t do</h4>
       <ul>
         <li><strong>Reverse aging</strong> &mdash; no trial supports it.</li>
         <li><strong>Melt general body fat</strong> on its own &mdash; unproven.</li>
@@ -937,9 +1185,9 @@ mini-poll { display: block; }
   <h2>What the science <span class="hl">actually</span> supports</h2>
   <p class="lede">This is the rare peptide page with <strong>real phase-3 human trials</strong> &mdash; and a bright line between what those trials proved and what the internet added afterward.</p>
   <div class="grid3">
-    <div class="card sky reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>HIV lipodystrophy: proven</h3><p>Two pivotal phase-3 trials in HIV patients: <strong>visceral belly fat fell significantly more</strong> on tesamorelin than on placebo. That result &mdash; and only that result &mdash; earned the 2010 FDA approval.</p></div>
-    <div class="card teal reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"/><path d="M7.5 15h9"/></svg></div><h3>Liver fat &amp; cognition: early</h3><p>Smaller studies hint at <strong>less liver fat</strong> and possible <strong>cognitive benefits</strong> in specific groups. Interesting, preliminary &mdash; and still investigational.</p></div>
-    <div class="card org reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.3a2.6 2.6 0 1 1 3.7 2.3c-.8.4-1.2 1-1.2 1.9"/><circle cx="12" cy="17" r="1.1" fill="#d3b334" stroke="none"/></svg></div><h3>Anti-aging &amp; general fat loss: unproven</h3><p><strong>No trial supports</strong> tesamorelin for longevity, aesthetics, or athletic leanness. GH-axis meddling for &ldquo;optimization&rdquo; is speculation wearing a lab coat.</p></div>
+    <div class="card sky reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>HIV lipodystrophy: proven</h3><p>Two pivotal phase-3 trials in HIV patients: <strong>visceral belly fat fell significantly more</strong> on tesamorelin than on placebo. That result &mdash; and only that result &mdash; earned the 2010 FDA approval.</p></div>
+    <div class="card teal reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"/><path d="M7.5 15h9"/></svg></div><h3>Liver fat &amp; cognition: early</h3><p>Smaller studies hint at <strong>less liver fat</strong> and possible <strong>cognitive benefits</strong> in specific groups. Interesting, preliminary &mdash; and still investigational.</p></div>
+    <div class="card org reveal"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.3a2.6 2.6 0 1 1 3.7 2.3c-.8.4-1.2 1-1.2 1.9"/><circle cx="12" cy="17" r="1.1" fill="#b79bff" stroke="none"/></svg></div><h3>Anti-aging &amp; general fat loss: unproven</h3><p><strong>No trial supports</strong> tesamorelin for longevity, aesthetics, or athletic leanness. GH-axis meddling for &ldquo;optimization&rdquo; is speculation wearing a lab coat.</p></div>
   </div>
   <div class="plain reveal"><div class="plabel">Plain English</div><p>Picture a student with <strong>one A+ on the transcript</strong> (HIV belly fat) and a pile of &ldquo;incomplete&rdquo; marks everywhere else. Fans point at the A+ and assume straight A&rsquo;s. The transcript says otherwise &mdash; and in medicine, you don&rsquo;t get credit for courses you never took.</p></div>
 </section>
@@ -954,13 +1202,13 @@ mini-poll { display: block; }
   <p class="lede">Online tesamorelin talk splits into two worlds: <strong>prescribed patients</strong> discussing a real medicine, and <strong>biohackers</strong> chasing off-label leanness. Both produce stories &mdash; and stories are not data.</p>
   <div class="ulegend reveal"><span class="udot" role="img" aria-label="Unverified anecdote"></span><p><strong>Unverified anecdote</strong> &mdash; the pulsing dot marks a paraphrased recurring theme from forums and social media: not verified, not evidence.</p></div>
   <div class="anec-grid">
-    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="10" width="18" height="5" rx="2"/><path d="M7 10v5M11 10v3M15 10v5M19 10v3"/></svg></div><h4>The waistline story</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Belt went down a notch in three months.&rdquo; <strong>Caveat:</strong> waistlines respond to diet, training, and water shifts too &mdash; and nobody posts their food log alongside the claim. Others chime in with similar belt-notch stories, usually describing the change as slow rather than dramatic. A recurring reply warns that nobody mentions what else changed at the same time &mdash; new training blocks, diet overhauls, or simply less bloating. Some posters admit they only measured twice, at the start and at the end, with no notes in between. A few skeptical voices point out that three months is exactly how long a disciplined cut takes on its own.</p><div class="caveat">Pattern: the classic belly-fat anecdote &mdash; real measurement, unknowable cause.</div></div>
-    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg></div><h4>The water-weight tradeoff</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Midsection looked better but my rings got tight.&rdquo; <strong>Caveat:</strong> GH-axis drugs are famous for fluid retention &mdash; some &ldquo;results&rdquo; may be water moving around, not fat leaving. This tradeoff comes up constantly &mdash; looking leaner in the mirror while feeling puffier in the hands and feet. Several posters describe a strange in-between state, not quite a result and not quite a side effect. Others reply that the tightness faded after the first weeks, though nobody can say whether that was adaptation or wishful thinking. A common piece of folk wisdom says to watch the ankles, not the scale.</p><div class="caveat">Pattern: matches the edema seen in real trials &mdash; a side effect narrated as a quirk.</div></div>
-    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h16"/><path d="M7 20v-6M12 20V6M17 20v-9"/></svg></div><h4>&ldquo;My labs moved&rdquo;</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;IGF-1 doubled &mdash; it&rsquo;s definitely doing something.&rdquo; <strong>Caveat:</strong> a moved lab number is proof of pharmacology, not proof of benefit. Higher IGF-1 is also the value doctors watch nervously. Lab screenshots get the most enthusiastic replies, with commenters treating the number like a score. A quieter contingent asks the awkward question: a score of what, exactly? Several posters report that their clinician raised an eyebrow at the same number they were celebrating. Others note that IGF-1 naturally bounces around with sleep, food, and time of day, so a single draw proves little.</p><div class="caveat">Pattern: biomarker-as-trophy &mdash; the number becomes the goal instead of the outcome.</div></div>
-    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="12" r="3"/><circle cx="16.5" cy="12" r="3"/><path d="M10.5 12h3"/></svg></div><h4>The joint-ache report</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Knees and hands ached for the first month, then settled.&rdquo; <strong>Caveat:</strong> joint pain is a documented trial side effect &mdash; these reports actually line up with the label. This is one of the few anecdotes that veterans treat as a good sign rather than a complaint &mdash; achy joints supposedly mean the GH axis is awake. Newcomers are routinely told the ache passes, though nobody specifies when &lsquo;settled&rsquo; actually begins. Some posters describe training lighter for a few weeks to compensate. Others say the ache never fully left and they simply got used to it.</p><div class="caveat">Pattern: rare case of anecdotes agreeing with clinical data &mdash; still not dose guidance.</div></div>
-    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 7.5v9M9.2 9.8c0-1.2 1.2-2 2.8-2s2.8.8 2.8 2-1 2-2.8 2.4-2.8.8-2.8 2 1.2 2 2.8 2 2.8-.8 2.8-2"/></svg></div><h4>The cost groan</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Pharmacy price is absurd &mdash; looking at other options.&rdquo; <strong>Caveat:</strong> &ldquo;other options&rdquo; means unregulated supply, where the label&rsquo;s safety data no longer applies. Cost threads are where the two worlds &mdash; prescription patients and gray-market experimenters &mdash; collide most visibly. Patients describe insurance covering the approved use but balking at anything else. The &lsquo;other options&rsquo; replies are a minefield of conflicting claims about what is actually in the vial. Several posters warn that the savings evaporate the moment you factor in the unknowns.</p><div class="caveat">Pattern: cost pushing people from a studied drug toward unstudied copies.</div></div>
-    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-4 3-6.5 7-6.5s7 2.5 7 6.5"/></svg></div><h4>The non-responder</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Three months, labs barely moved, waist the same.&rdquo; <strong>Caveat:</strong> negative reports get fewer replies and reposts &mdash; the quiet majority is undercounted. These posts get far fewer replies than the success stories, which regulars admit skews the whole picture. Some commenters suggest the poster&rsquo;s expectations were the real problem &mdash; three months is short for a slow metabolic drug. Others float the possibility of a dud vial, which is impossible to verify from a forum post. A few mention that non-response might be the most common outcome of all, just the least posted.</p><div class="caveat">Pattern: non-response is probably common and heavily underreported.</div></div>
-    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M8 20h8M5 7l7-3 7 3"/><path d="M5 7l-2.5 6a3 3 0 0 0 5 0L5 7zM19 7l-2.5 6a3 3 0 0 0 5 0L19 7z"/></svg></div><h4>Prescription vs gray market</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Pharmacy version worked; the other vial felt like nothing.&rdquo; <strong>Caveat:</strong> unregulated copies vary wildly &mdash; different experiences may mean different chemicals. Comparisons like this are everywhere, and they are impossible to interpret &mdash; different vials, different bodies, different timelines. Some posters insist the difference is night and day, which others read as a sign the unregulated vials are underfilled or fake. A skeptical camp argues the opposite: expectation does the heavy lifting when the pharmacy label is on the box. Quality-control debates quickly hit a wall, since no poster is running lab assays.</p><div class="caveat">Pattern: the strongest argument that anecdotes can&rsquo;t be compared to each other.</div></div>
+    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="10" width="18" height="5" rx="2"/><path d="M7 10v5M11 10v3M15 10v5M19 10v3"/></svg></div><h4>The waistline story</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Belt went down a notch in three months.&rdquo; <strong>Caveat:</strong> waistlines respond to diet, training, and water shifts too &mdash; and nobody posts their food log alongside the claim. Others chime in with similar belt-notch stories, usually describing the change as slow rather than dramatic. A recurring reply warns that nobody mentions what else changed at the same time &mdash; new training blocks, diet overhauls, or simply less bloating. Some posters admit they only measured twice, at the start and at the end, with no notes in between. A few skeptical voices point out that three months is exactly how long a disciplined cut takes on its own.</p><div class="caveat">Pattern: the classic belly-fat anecdote &mdash; real measurement, unknowable cause.</div></div>
+    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg></div><h4>The water-weight tradeoff</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Midsection looked better but my rings got tight.&rdquo; <strong>Caveat:</strong> GH-axis drugs are famous for fluid retention &mdash; some &ldquo;results&rdquo; may be water moving around, not fat leaving. This tradeoff comes up constantly &mdash; looking leaner in the mirror while feeling puffier in the hands and feet. Several posters describe a strange in-between state, not quite a result and not quite a side effect. Others reply that the tightness faded after the first weeks, though nobody can say whether that was adaptation or wishful thinking. A common piece of folk wisdom says to watch the ankles, not the scale.</p><div class="caveat">Pattern: matches the edema seen in real trials &mdash; a side effect narrated as a quirk.</div></div>
+    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h16"/><path d="M7 20v-6M12 20V6M17 20v-9"/></svg></div><h4>&ldquo;My labs moved&rdquo;</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;IGF-1 doubled &mdash; it&rsquo;s definitely doing something.&rdquo; <strong>Caveat:</strong> a moved lab number is proof of pharmacology, not proof of benefit. Higher IGF-1 is also the value doctors watch nervously. Lab screenshots get the most enthusiastic replies, with commenters treating the number like a score. A quieter contingent asks the awkward question: a score of what, exactly? Several posters report that their clinician raised an eyebrow at the same number they were celebrating. Others note that IGF-1 naturally bounces around with sleep, food, and time of day, so a single draw proves little.</p><div class="caveat">Pattern: biomarker-as-trophy &mdash; the number becomes the goal instead of the outcome.</div></div>
+    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="12" r="3"/><circle cx="16.5" cy="12" r="3"/><path d="M10.5 12h3"/></svg></div><h4>The joint-ache report</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Knees and hands ached for the first month, then settled.&rdquo; <strong>Caveat:</strong> joint pain is a documented trial side effect &mdash; these reports actually line up with the label. This is one of the few anecdotes that veterans treat as a good sign rather than a complaint &mdash; achy joints supposedly mean the GH axis is awake. Newcomers are routinely told the ache passes, though nobody specifies when &lsquo;settled&rsquo; actually begins. Some posters describe training lighter for a few weeks to compensate. Others say the ache never fully left and they simply got used to it.</p><div class="caveat">Pattern: rare case of anecdotes agreeing with clinical data &mdash; still not dose guidance.</div></div>
+    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 7.5v9M9.2 9.8c0-1.2 1.2-2 2.8-2s2.8.8 2.8 2-1 2-2.8 2.4-2.8.8-2.8 2 1.2 2 2.8 2 2.8-.8 2.8-2"/></svg></div><h4>The cost groan</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Pharmacy price is absurd &mdash; looking at other options.&rdquo; <strong>Caveat:</strong> &ldquo;other options&rdquo; means unregulated supply, where the label&rsquo;s safety data no longer applies. Cost threads are where the two worlds &mdash; prescription patients and gray-market experimenters &mdash; collide most visibly. Patients describe insurance covering the approved use but balking at anything else. The &lsquo;other options&rsquo; replies are a minefield of conflicting claims about what is actually in the vial. Several posters warn that the savings evaporate the moment you factor in the unknowns.</p><div class="caveat">Pattern: cost pushing people from a studied drug toward unstudied copies.</div></div>
+    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-4 3-6.5 7-6.5s7 2.5 7 6.5"/></svg></div><h4>The non-responder</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Three months, labs barely moved, waist the same.&rdquo; <strong>Caveat:</strong> negative reports get fewer replies and reposts &mdash; the quiet majority is undercounted. These posts get far fewer replies than the success stories, which regulars admit skews the whole picture. Some commenters suggest the poster&rsquo;s expectations were the real problem &mdash; three months is short for a slow metabolic drug. Others float the possibility of a dud vial, which is impossible to verify from a forum post. A few mention that non-response might be the most common outcome of all, just the least posted.</p><div class="caveat">Pattern: non-response is probably common and heavily underreported.</div></div>
+    <div class="anec reveal"><div class="anec-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M8 20h8M5 7l7-3 7 3"/><path d="M5 7l-2.5 6a3 3 0 0 0 5 0L5 7zM19 7l-2.5 6a3 3 0 0 0 5 0L19 7z"/></svg></div><h4>Prescription vs gray market</h4><span class="udot" role="img" aria-label="Unverified anecdote"></span></div><p>&ldquo;Pharmacy version worked; the other vial felt like nothing.&rdquo; <strong>Caveat:</strong> unregulated copies vary wildly &mdash; different experiences may mean different chemicals. Comparisons like this are everywhere, and they are impossible to interpret &mdash; different vials, different bodies, different timelines. Some posters insist the difference is night and day, which others read as a sign the unregulated vials are underfilled or fake. A skeptical camp argues the opposite: expectation does the heavy lifting when the pharmacy label is on the box. Quality-control debates quickly hit a wall, since no poster is running lab assays.</p><div class="caveat">Pattern: the strongest argument that anecdotes can&rsquo;t be compared to each other.</div></div>
   </div>
   <div class="folk-note reveal"><p>Two different populations, two different products, one comment section. Read these as <strong>hypothesis fuel, not conclusions</strong> &mdash; especially when you can&rsquo;t tell which world the poster lives in.</p></div>
 </section>
@@ -974,12 +1222,12 @@ mini-poll { display: block; }
   <h2>Risks &amp; <span class="hl">unknowns</span></h2>
   <p class="lede">A real drug means a <strong>real label with real side effects</strong> &mdash; plus the unknowns that appear the moment people use it outside that label. Kept in separate boxes on purpose.</p>
   <div class="safety-grid">
-    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg></div>Blood sugar rises</h4><p><strong>Observed in trials:</strong> growth hormone opposes insulin, so <strong>blood sugar can climb</strong> &mdash; a genuine concern for anyone with diabetes or pre-diabetes. Glucose is monitored on treatment.</p></div>
-    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="12" r="3"/><circle cx="16.5" cy="12" r="3"/><path d="M10.5 12h3"/></svg></div>Swelling &amp; joint pain</h4><p><strong>Observed in trials:</strong> <strong>edema and arthralgia</strong> are among the most common side effects. GH causes fluid retention; achy, puffy early weeks are the classic pattern.</p></div>
-    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l10 17H2z"/><path d="M12 10v4"/><circle cx="12" cy="17" r="1.1" fill="#d3b334" stroke="none"/></svg></div>IGF-1 &amp; cancer caution</h4><p><strong>Label fact:</strong> tesamorelin raises IGF-1, and GH/IGF-1 signaling can encourage cell growth &mdash; it is <strong>contraindicated with active cancer</strong>. Anyone with a malignancy history needs specialist input.</p></div>
-    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 20V4m0 7h6a3.5 3.5 0 0 0 0-7H7"/><path d="M13 11l6 9"/></svg></div>Prescription-only</h4><p><strong>Observed fact:</strong> this is a <strong>regulated medicine</strong>, not a supplement. Using it without a prescriber means no monitoring of IGF-1, glucose, or interactions &mdash; the safety net the trials assumed.</p></div>
-    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 5H4.5A2.5 2.5 0 0 0 8 10M16 5h3.5A2.5 2.5 0 0 1 16 10M12 13v4M8.5 20.5h7"/></svg></div>Sport eligibility</h4><p><strong>Observed fact:</strong> tested athletes follow WADA&rsquo;s S2 category for GHRH analogs like tesamorelin, in and out of competition. Sport has its own rulebook, separate from the prescription label.</p></div>
-    <div class="scard lvl-unknown reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 7.5v9M9.2 9.8c0-1.2 1.2-2 2.8-2s2.8.8 2.8 2-1 2-2.8 2.4-2.8.8-2.8 2 1.2 2 2.8 2 2.8-.8 2.8-2"/></svg></div>Cost &amp; access</h4><p><strong>Unknown for most:</strong> as a specialty drug it is <strong>expensive</strong>, and insurance typically covers only the approved HIV-lipodystrophy use. Cost pressure pushes some toward unregulated copies &mdash; where the trial safety data stops applying.</p></div>
+    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg></div>Blood sugar rises</h4><p><strong>Observed in trials:</strong> growth hormone opposes insulin, so <strong>blood sugar can climb</strong> &mdash; a genuine concern for anyone with diabetes or pre-diabetes. Glucose is monitored on treatment.</p></div>
+    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="12" r="3"/><circle cx="16.5" cy="12" r="3"/><path d="M10.5 12h3"/></svg></div>Swelling &amp; joint pain</h4><p><strong>Observed in trials:</strong> <strong>edema and arthralgia</strong> are among the most common side effects. GH causes fluid retention; achy, puffy early weeks are the classic pattern.</p></div>
+    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l10 17H2z"/><path d="M12 10v4"/><circle cx="12" cy="17" r="1.1" fill="#b79bff" stroke="none"/></svg></div>IGF-1 &amp; cancer caution</h4><p><strong>Label fact:</strong> tesamorelin raises IGF-1, and GH/IGF-1 signaling can encourage cell growth &mdash; it is <strong>contraindicated with active cancer</strong>. Anyone with a malignancy history needs specialist input.</p></div>
+    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 20V4m0 7h6a3.5 3.5 0 0 0 0-7H7"/><path d="M13 11l6 9"/></svg></div>Prescription-only</h4><p><strong>Observed fact:</strong> this is a <strong>regulated medicine</strong>, not a supplement. Using it without a prescriber means no monitoring of IGF-1, glucose, or interactions &mdash; the safety net the trials assumed.</p></div>
+    <div class="scard lvl-known reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 5H4.5A2.5 2.5 0 0 0 8 10M16 5h3.5A2.5 2.5 0 0 1 16 10M12 13v4M8.5 20.5h7"/></svg></div>Sport eligibility</h4><p><strong>Observed fact:</strong> tested athletes follow WADA&rsquo;s S2 category for GHRH analogs like tesamorelin, in and out of competition. Sport has its own rulebook, separate from the prescription label.</p></div>
+    <div class="scard lvl-unknown reveal"><h4><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 7.5v9M9.2 9.8c0-1.2 1.2-2 2.8-2s2.8.8 2.8 2-1 2-2.8 2.4-2.8.8-2.8 2 1.2 2 2.8 2 2.8-.8 2.8-2"/></svg></div>Cost &amp; access</h4><p><strong>Unknown for most:</strong> as a specialty drug it is <strong>expensive</strong>, and insurance typically covers only the approved HIV-lipodystrophy use. Cost pressure pushes some toward unregulated copies &mdash; where the trial safety data stops applying.</p></div>
   </div>
   <div class="plain reveal"><div class="plabel">Plain English</div><p>Known: it <strong>raises blood sugar</strong>, causes <strong>swelling and achy joints</strong>, and is <strong>off-limits with active cancer</strong>. Structural: it&rsquo;s <strong>prescription-only</strong>. Unknown: what years of off-label GH nudging does to a healthy body &mdash; because the trials never studied that person.</p></div>
 </section>
@@ -994,32 +1242,32 @@ mini-poll { display: block; }
   <p class="lede">Same hormone axis, very different tools. Here is how tesamorelin compares with the other names in the growth-hormone conversation &mdash; and what changes when it gets paired up.</p>
   <div class="vs-grid">
 <div class="vs-card reveal">
-    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M8 20h8M5 7l7-3 7 3"/><path d="M5 7l-2.5 6a3 3 0 0 0 5 0L5 7zM19 7l-2.5 6a3 3 0 0 0 5 0L19 7z"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> Ipamorelin</h4></div>
+    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M8 20h8M5 7l7-3 7 3"/><path d="M5 7l-2.5 6a3 3 0 0 0 5 0L5 7zM19 7l-2.5 6a3 3 0 0 0 5 0L19 7z"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> Ipamorelin</h4></div>
     <div class="vs-rows"><div class="vs-row"><span class="vk">Mechanism</span><p><strong>Tesa:</strong> GHRH copy &mdash; presses the pituitary&rsquo;s &ldquo;release&rdquo; button. <strong>Ipa:</strong> ghrelin mimic &mdash; knocks on a different door (the hunger-hormone receptor) to trigger a GH pulse.</p></div><div class="vs-row"><span class="vk">Target</span><p>Pituitary GHRH receptor <strong>vs</strong> ghrelin receptor (GHS-R1a).</p></div><div class="vs-row"><span class="vk">Purpose</span><p>Approved for HIV belly fat <strong>vs</strong> investigational GH-pulse booster.</p></div><div class="vs-row"><span class="vk">Evidence</span><p><strong>Two phase-3 trials</strong> <strong>vs</strong> human GH-pulse data, no phase-3 fat-loss trials.</p></div><div class="vs-row"><span class="vk">Edge</span><p>Real label, real pharmacy <strong>vs</strong> popular in research combos.</p></div><div class="vs-row"><span class="vk">Limit</span><p>One approved use, pricey <strong>vs</strong> no approved fat-loss use.</p></div></div>
     <div class="vs-verdict"><strong>Bottom line:</strong> The studied medicine vs the research favorite &mdash; same axis, different doors.</div>
   </div>
 <div class="vs-card reveal">
-    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1.2" fill="#d3b334" stroke="none"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> CJC-1295</h4></div>
+    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1.2" fill="#b79bff" stroke="none"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> CJC-1295</h4></div>
     <div class="vs-rows"><div class="vs-row"><span class="vk">Mechanism</span><p>Both are <strong>GHRH copies</strong> &mdash; cousins with the same key. CJC-1295 was engineered for longer action, with or without a DAC tail.</p></div><div class="vs-row"><span class="vk">Target</span><p>The same pituitary GHRH receptor.</p></div><div class="vs-row"><span class="vk">Purpose</span><p>HIV lipodystrophy <strong>vs</strong> investigational longevity and performance use.</p></div><div class="vs-row"><span class="vk">Evidence</span><p><strong>Phase-3</strong> <strong>vs</strong> small human studies; development programs were discontinued.</p></div><div class="vs-row"><span class="vk">Edge</span><p>Still made and prescribed <strong>vs</strong> the longer-acting concept.</p></div><div class="vs-row"><span class="vk">Limit</span><p>Narrow label <strong>vs</strong> no approved use at all.</p></div></div>
     <div class="vs-verdict"><strong>Bottom line:</strong> One cousin opened a real door; the other is still looking for one.</div>
   </div>
 <div class="vs-card reveal">
-    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="9" width="16" height="7" rx="3.5" transform="rotate(-25 12 12)"/><line x1="12" y1="6.2" x2="12" y2="17.8" transform="rotate(-25 12 12)"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> Sermorelin</h4></div>
+    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="9" width="16" height="7" rx="3.5" transform="rotate(-25 12 12)"/><line x1="12" y1="6.2" x2="12" y2="17.8" transform="rotate(-25 12 12)"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> Sermorelin</h4></div>
     <div class="vs-rows"><div class="vs-row"><span class="vk">Mechanism</span><p>GHRH copy (44 amino acids) <strong>vs</strong> GHRH fragment (29 amino acids) &mdash; a shorter version of the same signal.</p></div><div class="vs-row"><span class="vk">Target</span><p>The same pituitary GHRH receptor.</p></div><div class="vs-row"><span class="vk">Purpose</span><p>HIV lipodystrophy <strong>vs</strong> formerly: GH-deficiency diagnosis and treatment in children.</p></div><div class="vs-row"><span class="vk">Evidence</span><p><strong>Phase-3</strong> <strong>vs</strong> older clinical history; sermorelin was discontinued.</p></div><div class="vs-row"><span class="vk">Edge</span><p>A current medicine <strong>vs</strong> a largely historical one.</p></div><div class="vs-row"><span class="vk">Limit</span><p>Narrow label <strong>vs</strong> short-acting and faded from practice.</p></div></div>
     <div class="vs-verdict"><strong>Bottom line:</strong> The successor still standing vs the predecessor that bowed out.</div>
   </div>
 <div class="vs-card reveal">
-    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"/><path d="M7.5 15h9"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> HGH</h4></div>
+    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"/><path d="M7.5 15h9"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> HGH</h4></div>
     <div class="vs-rows"><div class="vs-row"><span class="vk">Mechanism</span><p><strong>Nudges your pituitary</strong> to make its own GH <strong>vs</strong> supplies GH directly (somatropin).</p></div><div class="vs-row"><span class="vk">Target</span><p>Upstream &mdash; the gland <strong>vs</strong> downstream &mdash; GH receptors everywhere.</p></div><div class="vs-row"><span class="vk">Purpose</span><p>Visceral fat in HIV lipodystrophy <strong>vs</strong> GH deficiency and other approved uses.</p></div><div class="vs-row"><span class="vk">Evidence</span><p><strong>Phase-3</strong> <strong>vs</strong> decades of data.</p></div><div class="vs-row"><span class="vk">Edge</span><p>Keeps the natural pulse rhythm <strong>vs</strong> precise, direct control.</p></div><div class="vs-row"><span class="vk">Limit</span><p>Indirect and slower <strong>vs</strong> can quiet natural production; broader effects.</p></div></div>
     <div class="vs-verdict"><strong>Bottom line:</strong> Turning up the faucet vs pouring from the jug.</div>
   </div>
 <div class="vs-card reveal">
-    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#046978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.3a2.6 2.6 0 1 1 3.7 2.3c-.8.4-1.2 1-1.2 1.9"/><circle cx="12" cy="17" r="1.1" fill="#d3b334" stroke="none"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> the rest</h4></div>
+    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#4d7c0f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.3a2.6 2.6 0 1 1 3.7 2.3c-.8.4-1.2 1-1.2 1.9"/><circle cx="12" cy="17" r="1.1" fill="#b79bff" stroke="none"/></svg></div><h4>Tesamorelin <span class="vs">vs</span> the rest</h4></div>
     <div class="vs-rows"><div class="vs-row"><span class="vk">MK-677</span><p>An <strong>oral ghrelin mimic</strong> &mdash; a pill, not a peptide injection. Investigational, with its own side-effect profile. Different convenience, different evidence.</p></div><div class="vs-row"><span class="vk">AOD-9604</span><p>A <strong>fragment of the GH molecule itself</strong>, marketed for fat loss &mdash; but with no phase-3 proof behind the claims.</p></div><div class="vs-row"><span class="vk">The pattern</span><p>Same neighborhood, different streets &mdash; none of them carries tesamorelin&rsquo;s trial record for visceral fat.</p></div></div>
     <div class="vs-verdict"><strong>Bottom line:</strong> Crowded axis, but only one has the phase-3 receipt for deep belly fat.</div>
   </div>
 <div class="vs-card reveal">
-    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#d3b334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h16"/><path d="M7 20v-6M12 20V6M17 20v-9"/></svg></div><h4>Tesamorelin alone <span class="vs">vs</span> + Ipamorelin</h4></div>
+    <div class="vs-head"><div class="tic"><svg viewBox="0 0 24 24" fill="none" stroke="#b79bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h16"/><path d="M7 20v-6M12 20V6M17 20v-9"/></svg></div><h4>Tesamorelin alone <span class="vs">vs</span> + Ipamorelin</h4></div>
     <div class="vs-rows"><div class="vs-row"><span class="vk">Mechanism</span><p>One signal (GHRH) <strong>vs</strong> two signals &mdash; GHRH plus a ghrelin mimic hitting two different receptors.</p></div><div class="vs-row"><span class="vk">The theory</span><p>The pituitary gets two &ldquo;release&rdquo; commands at once &mdash; folk theory says the combined pulse is bigger than either alone.</p></div><div class="vs-row"><span class="vk">Evidence</span><p><strong>Phase-3 for solo</strong> <strong>vs</strong> zero trials of the combination.</p></div><div class="vs-row"><span class="vk">Edge</span><p>Known safety profile <strong>vs</strong> theoretical synergy.</p></div><div class="vs-row"><span class="vk">Limit</span><p>Single pathway <strong>vs</strong> stacked unknowns with no safety data.</p></div></div>
     <div class="vs-verdict"><strong>Bottom line:</strong> The studied path vs the folk theory &mdash; two keys, no tested lock.</div>
   </div>
@@ -1041,21 +1289,21 @@ mini-poll { display: block; }
     <text x="16" y="72" font-size="15" font-weight="800" letter-spacing=".08em" fill="#edf0f9">ESTABLISHED</text>
     <text x="16" y="94" font-size="12.5" font-weight="600" fill="#a9b1c9">phase-3: HIV belly fat</text>
     <rect x="290" y="48" width="600" height="36" rx="18" class="bentrack"/>
-    <rect x="290" y="48" width="600" height="36" rx="18" fill="#d3b334" fill-opacity=".28"/>
-    <line x1="302" y1="66" x2="878" y2="66" class="benflow" stroke="#d3b334"/>
-    <circle cx="890" cy="66" r="7" fill="#d3b334" class="glow-pulse"/>
+    <rect x="290" y="48" width="600" height="36" rx="18" fill="#b79bff" fill-opacity=".28"/>
+    <line x1="302" y1="66" x2="878" y2="66" class="benflow" stroke="#b79bff"/>
+    <circle cx="890" cy="66" r="7" fill="#b79bff" class="glow-pulse"/>
     <text x="16" y="156" font-size="15" font-weight="800" letter-spacing=".08em" fill="#edf0f9">EMERGING / PREDICTED</text>
     <text x="16" y="178" font-size="12.5" font-weight="600" fill="#a9b1c9">liver + cognition hints</text>
     <rect x="290" y="132" width="600" height="36" rx="18" class="bentrack"/>
-    <rect x="290" y="132" width="280" height="36" rx="18" fill="#d3b334" fill-opacity=".28" opacity="0.55"/>
-    <line x1="302" y1="150" x2="558" y2="150" class="benflow" stroke="#d3b334" opacity="0.55"/>
-    <circle cx="570" cy="150" r="7" fill="#d3b334" class="glow-pulse" opacity="0.55"/>
+    <rect x="290" y="132" width="280" height="36" rx="18" fill="#b79bff" fill-opacity=".28" opacity="0.55"/>
+    <line x1="302" y1="150" x2="558" y2="150" class="benflow" stroke="#b79bff" opacity="0.55"/>
+    <circle cx="570" cy="150" r="7" fill="#b79bff" class="glow-pulse" opacity="0.55"/>
     <text x="16" y="240" font-size="15" font-weight="800" letter-spacing=".08em" fill="#edf0f9">COMMUNITY REPORTS</text>
     <text x="16" y="262" font-size="12.5" font-weight="600" fill="#a9b1c9">off-label stories</text>
     <rect x="290" y="216" width="600" height="36" rx="18" class="bentrack"/>
-    <rect x="290" y="216" width="380" height="36" rx="18" fill="#d3b334" fill-opacity=".10" stroke="#d3b334" stroke-width="2" stroke-dasharray="9 7"/>
-    <line x1="302" y1="234" x2="658" y2="234" class="benflow" stroke="#d3b334"/>
-    <circle cx="670" cy="234" r="7" fill="#d3b334" class="glow-pulse"/>
+    <rect x="290" y="216" width="380" height="36" rx="18" fill="#b79bff" fill-opacity=".10" stroke="#b79bff" stroke-width="2" stroke-dasharray="9 7"/>
+    <line x1="302" y1="234" x2="658" y2="234" class="benflow" stroke="#b79bff"/>
+    <circle cx="670" cy="234" r="7" fill="#b79bff" class="glow-pulse"/>
     </svg>
     <div class="cap">Evidence confidence by tier &#8212; one proven use, everything else thinner.</div>
   </div>
@@ -1114,47 +1362,47 @@ mini-poll { display: block; }
   <h2>Understanding <span class="hl">Tesamorelin</span> Terminology</h2>
   <p class="lede">Eleven terms, each with the science and a plain-English translation. Tap any term to expand it.</p>
   <div class="gloss">
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#34d39922"/><path d="M8 24c4-8 8-12 16-12s12 4 16 12-4 12-8 16-8 4-16 4-12-4-16-4-12-8-8-16z" fill="none" stroke="#d3b334" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Tesamorelin</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#34d39922"/><path d="M8 24c4-8 8-12 16-12s12 4 16 12-4 12-8 16-8 4-16 4-12-4-16-4-12-8-8-16z" fill="none" stroke="#b79bff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Tesamorelin</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>A 44-amino-acid synthetic analog of human growth-hormone-releasing hormone (GHRH), with an N-terminal modification to improve stability. It stimulates the pituitary gland to release growth hormone in the body’s own pulsatile pattern, which in turn raises IGF-1. It was approved by the FDA in 2010 under the brand name Egrifta to reduce excess abdominal (visceral) fat in HIV-infected patients with lipodystrophy — the first and only drug approved for that specific indication. Its approval was based on randomized trials showing reduced visceral fat versus placebo. It remains a prescription-only medicine dispensed through pharmacies.</p>
       <div class="plain"><span class="plabel">Plain English</span>Tesamorelin is a lab-made, 44-piece copy of the brain’s “release growth hormone” signal, tweaked so it survives longer in the body. It nudges your own pituitary to release growth hormone in its natural pulsing rhythm. In 2010 it became the first — and still only — drug approved specifically to reduce excess belly fat in people with HIV-related lipodystrophy. That approval came from proper randomized trials against placebo. It’s a real prescription medicine, not a gray-market product.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#04785722"/><path d="M24 6v30M12 14c4-4 8-6 12-6s8 2 12 6M12 34c4 4 8 6 12 6s8-2 12-6" fill="none" stroke="#046978" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">GHRH</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#04785722"/><path d="M24 6v30M12 14c4-4 8-6 12-6s8 2 12 6M12 34c4 4 8 6 12 6s8-2 12-6" fill="none" stroke="#4d7c0f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">GHRH</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>Growth-hormone-releasing hormone: a 44-amino-acid peptide produced by the hypothalamus that binds receptors on pituitary somatotroph cells and triggers growth-hormone release. It is the body’s primary “go” signal for GH, balanced against somatostatin’s “stop” signal to produce the natural pulsing pattern. Its natural form is very short-lived in the blood, which limits its direct use as a medicine. Tesamorelin is a stabilized synthetic analog designed to activate the same receptor with a longer duration of action. Because it works through the body’s own machinery, it preserves pulsatile release rather than delivering GH directly.</p>
       <div class="plain"><span class="plabel">Plain English</span>GHRH is your brain’s own “release growth hormone now” message, sent from the hypothalamus to the pituitary gland. It’s the “go” pedal; another brain chemical, somatostatin, is the brake — together they create growth hormone’s natural pulse rhythm. The natural version burns out almost immediately, which makes it useless as a drug. Tesamorelin is a tougher, longer-lasting copy built to flip the same switch. Because it works through your own system, growth hormone still comes in pulses, not a flood.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#022c2222"/><path d="M24 8c8 0 14 6 14 14s-6 14-14 14-14-6-14-14 6-14 14-14zM24 18v10M19 23h10" fill="none" stroke="#d3b334" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Pituitary gland</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#022c2222"/><path d="M24 8c8 0 14 6 14 14s-6 14-14 14-14-6-14-14 6-14 14-14zM24 18v10M19 23h10" fill="none" stroke="#b79bff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Pituitary gland</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>A pea-sized endocrine gland at the base of the brain that manufactures and stores several major hormones, including growth hormone. Its growth-hormone-producing cells, called somatotrophs, release the hormone in bursts when stimulated by GHRH. Tesamorelin acts on this gland: it binds the GHRH receptors on somatotrophs and triggers a pulse of the body’s own growth hormone. Because the drug works through the pituitary rather than supplying hormone directly, a functioning gland is required for it to work. The gland also governs thyroid, adrenal, and reproductive hormones, placing GH therapy within a wider endocrine context.</p>
       <div class="plain"><span class="plabel">Plain English</span>The pituitary is a pea-sized gland at the base of your brain that stores and releases several major hormones, including growth hormone. Tesamorelin works by knocking on this gland’s door: it binds the GHRH receptors there and triggers a pulse of your own growth hormone. That’s an important distinction — it doesn’t supply the hormone, it asks your body to make it. So a working pituitary is required; without one, the drug has nothing to act on. The same gland also runs your thyroid, stress, and reproductive hormones.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#34d39922"/><path d="M10 30h28M10 22h28M10 14h18" fill="none" stroke="#046978" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Growth hormone (GH)</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#34d39922"/><path d="M10 30h28M10 22h28M10 14h18" fill="none" stroke="#4d7c0f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Growth hormone (GH)</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>A 191-amino-acid hormone secreted by the pituitary gland in pulses, predominantly during deep sleep. In childhood it drives skeletal and tissue growth; in adults it regulates metabolism, body composition, and fluid balance. Tesamorelin raises GH indirectly, by stimulating the pituitary through the GHRH receptor, rather than by injecting the hormone itself. Many of GH’s downstream effects — including on fat metabolism — are mediated by IGF-1, which the liver produces in response. Chronic GH excess is medically serious, which is why GH-axis drugs carry contraindications around tumors and require medical supervision.</p>
       <div class="plain"><span class="plabel">Plain English</span>Growth hormone is the pituitary’s 191-piece protein, released in bursts — biggest during deep sleep. In kids it drives growth; in adults it manages metabolism, body composition, and fluid balance. Tesamorelin doesn’t contain growth hormone — it convinces your pituitary to release more of your own. Much of the hormone’s real work is done by a middleman, IGF-1, made by the liver afterward. And too much growth hormone for too long is medically dangerous — which is why these drugs are monitored and kept away from anyone with active cancer.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#04785722"/><path d="M8 14h32M8 24h32M8 34h32M14 8v32M34 8v32" fill="none" stroke="#d3b334" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">IGF-1</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#04785722"/><path d="M8 14h32M8 24h32M8 34h32M14 8v32M34 8v32" fill="none" stroke="#b79bff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">IGF-1</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>Insulin-like growth factor 1, a hormone produced mainly by the liver in response to growth-hormone stimulation. It mediates many of growth hormone’s downstream effects on tissue growth and metabolism. Because GH itself clears from the blood within minutes, physicians monitor IGF-1 as a steadier, longer-lasting indicator of GH-axis activity. In tesamorelin therapy, rising IGF-1 confirms the drug is engaging its target — the expected pharmacological response. Doctors track it during treatment as the standard laboratory marker of how the GH axis is responding.</p>
       <div class="plain"><span class="plabel">Plain English</span>IGF-1 is the hormone your liver makes when growth hormone tells it to, and it carries out much of growth hormone’s tissue work. Growth hormone disappears from blood in minutes, so doctors measure IGF-1 instead — it sticks around longer and gives a steadier reading. On tesamorelin, a rising IGF-1 is the expected sign the drug is working. It’s the number doctors watch during treatment. Think of it as the dashboard gauge for the whole growth-hormone system.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#022c2222"/><path d="M24 6c8 8 12 14 12 22a12 12 0 0 1-24 0c0-8 4-14 12-22z" fill="none" stroke="#046978" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Visceral fat</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#022c2222"/><path d="M24 6c8 8 12 14 12 22a12 12 0 0 1-24 0c0-8 4-14 12-22z" fill="none" stroke="#4d7c0f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Visceral fat</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>Adipose tissue stored deep within the abdominal cavity, surrounding the internal organs — distinct from subcutaneous fat, which sits under the skin. Visceral fat is metabolically active and is more strongly linked to cardiovascular disease, insulin resistance, and metabolic syndrome than subcutaneous fat. It was the specific therapeutic target of tesamorelin’s FDA approval: the trials measured reductions in this deep abdominal compartment. Reducing it requires a measurable change in that compartment, not just overall weight loss. Its health relevance is why regulators accepted it as a meaningful clinical endpoint.</p>
       <div class="plain"><span class="plabel">Plain English</span>Visceral fat is the fat packed deep inside your belly, wrapped around your organs — different from the pinchable fat under your skin. It’s the dangerous kind: more closely tied to heart disease and diabetes than surface fat. It was the exact target of tesamorelin’s approval — the trials measured this deep compartment specifically. Shrinking it means changing that compartment, not just losing weight overall. That’s why regulators took it seriously as a real medical goal.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#34d39922"/><path d="M14 34V14m0 0h16v10H14m16 0v10" fill="none" stroke="#d3b334" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Lipodystrophy</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#34d39922"/><path d="M14 34V14m0 0h16v10H14m16 0v10" fill="none" stroke="#b79bff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Lipodystrophy</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>A disorder of abnormal fat distribution: loss of subcutaneous fat in some body regions combined with excess accumulation — often visceral — in others. In HIV medicine, it is a known consequence of older antiretroviral drugs, which disrupted normal fat metabolism. The resulting body-shape changes carry both metabolic risks and significant psychological burden. Tesamorelin’s FDA approval specifically covers the excess visceral fat component of HIV-associated lipodystrophy. It is a defined medical condition, not a cosmetic concern — which is why a prescription drug was developed for it.</p>
       <div class="plain"><span class="plabel">Plain English</span>Lipodystrophy means fat ends up in the wrong places: thinning out in some areas, piling up — often deep in the belly — in others. In people with HIV, older antiretroviral drugs caused this as a side effect. Beyond the health risks, the body-shape changes took a real psychological toll. Tesamorelin was approved specifically for the excess belly-fat part of HIV-related lipodystrophy. This is a recognized medical condition — not a cosmetic issue — which is why a real drug was built for it.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#04785722"/><path d="M18 8h12v10l-6 4-6-4zM24 22v14M18 40h12" fill="none" stroke="#046978" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Egrifta</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#04785722"/><path d="M18 8h12v10l-6 4-6-4zM24 22v14M18 40h12" fill="none" stroke="#4d7c0f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Egrifta</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>The brand name under which tesamorelin was approved by the FDA in 2010 for the reduction of excess abdominal fat in HIV-infected patients with lipodystrophy. As a branded prescription medicine, it is manufactured under regulated pharmaceutical standards and dispensed through pharmacies on a doctor’s prescription. Its approval was indication-specific: the FDA’s verdict covered only HIV-associated lipodystrophy, not general weight loss. Use outside that indication is off-label and unsupported by the approval evidence. The brand name distinguishes the regulated medicine from unregulated gray-market products sold under the generic name.</p>
       <div class="plain"><span class="plabel">Plain English</span>Egrifta is the brand name of tesamorelin — the version that went through FDA approval in 2010. It’s a real prescription medicine: made in regulated factories, dispensed by pharmacies, prescribed by doctors. But the approval was narrow — only for excess belly fat in HIV-related lipodystrophy, not for general weight loss. Using it for anything else is off-label and not backed by the approval data. The brand name is how you tell the regulated medicine apart from gray-market vials sold under the generic name.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#022c2222"/><path d="M12 8l12 32L36 8M18 8h12" fill="none" stroke="#d3b334" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">FDA approval</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#022c2222"/><path d="M12 8l12 32L36 8M18 8h12" fill="none" stroke="#b79bff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">FDA approval</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>The U.S. Food and Drug Administration’s formal determination that a drug’s benefits outweigh its risks for a specific use, based on evidence from controlled clinical trials. Approval is indication-specific: tesamorelin was approved in 2010 solely for reducing excess visceral fat in HIV-associated lipodystrophy. The process requires the manufacturer to demonstrate both efficacy and an acceptable safety profile through phased trials. Approval does not mean a drug is risk-free — it means the demonstrated benefits justify the known risks for that defined population. It is the regulatory line that separates medicines from research chemicals.</p>
       <div class="plain"><span class="plabel">Plain English</span>FDA approval is the U.S. regulator’s official verdict: this drug’s benefits outweigh its risks, for this specific use, based on real trial evidence. It’s always tied to an indication — tesamorelin’s approval covers HIV-related lipodystrophy belly fat, nothing else. Getting there means proving the drug works and is acceptably safe through staged trials. Approval doesn’t mean risk-free; it means the trade-off is worth it for that group of patients. It’s the line that separates actual medicines from gray-market chemicals.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#34d39922"/><path d="M24 40V16M24 16c-6-4-10-8-10-8m10 8c6-4 10-8 10-8M14 30c4 2 8 2 10 0m10 0c2 2 6 2 10 0" fill="none" stroke="#046978" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Edema</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#34d39922"/><path d="M24 40V16M24 16c-6-4-10-8-10-8m10 8c6-4 10-8 10-8M14 30c4 2 8 2 10 0m10 0c2 2 6 2 10 0" fill="none" stroke="#4d7c0f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">Edema</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>Swelling caused by excess fluid accumulating in body tissues, typically in the extremities. Growth-hormone-axis stimulation promotes sodium and water retention by the kidneys, which is why edema is among the most commonly reported side effects of tesamorelin and related drugs. In trials it most often appeared as swelling in the hands, feet, or ankles. It is generally reversible when treatment stops, though persistent swelling warrants medical evaluation. Its frequency in trials is part of why GH-axis therapies require physician supervision rather than unsupervised use.</p>
       <div class="plain"><span class="plabel">Plain English</span>Edema is swelling from fluid trapped in your tissues — usually puffy hands, feet, or ankles. Growth hormone tells the kidneys to hold onto salt, and water follows salt, so GH-raising drugs commonly cause it. It was one of the most frequent side effects in tesamorelin’s trials. It usually goes away when treatment stops. But it’s also a reminder of why these drugs need a doctor involved — fluid retention isn’t something to manage on your own.</div>
     </div></div>
-<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#04785722"/><path d="M10 10h28v28H10zM16 18l16 12M32 18L16 30" fill="none" stroke="#d3b334" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">WADA</span><span class="plus">+</span></button><div class="g-a">
+<div class="g-item"><button class="g-q" aria-expanded="false"><svg class="gthumb" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#04785722"/><path d="M10 10h28v28H10zM16 18l16 12M32 18L16 30" fill="none" stroke="#b79bff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="term">WADA</span><span class="plus">+</span></button><div class="g-a">
       <p class="gsci"><span class="gslabel">The science</span>The World Anti-Doping Agency, the international body that publishes the prohibited list governing drug testing in sport. Growth-hormone-releasing-hormone analogs, including tesamorelin, fall under the S2 category — peptide hormones, growth factors, and related substances. The S2 prohibition applies at all times, both in and out of competition. Listing reflects the substance’s class and its potential to influence performance-relevant physiology, not a judgment that every listed compound is effective. Athletes are strictly liable for what is found in their samples, regardless of intent, and FDA approval as a medicine does not exempt a substance from the prohibited list.</p>
       <div class="plain"><span class="plabel">Plain English</span>WADA is the international agency that writes the drug-testing rulebook for sport. Tesamorelin sits in its S2 category — peptide hormones and related substances — banned at all times, competing or not. Being listed doesn’t mean the drug definitely boosts performance; it means it’s in a class that could. Athletes are strictly liable: what’s in your sample is on you, intent aside. And being an FDA-approved medicine doesn’t get it off the list — plenty of real drugs are banned in sport.</div>
     </div></div>
@@ -1234,7 +1482,7 @@ setTheme(document.documentElement.getAttribute("data-theme")==="light"?"light":"
   function size(){W=window.innerWidth;H=window.innerHeight;svg.setAttribute("viewBox","0 0 "+W+" "+H);}
   size();window.addEventListener("resize",size);
   var NS="http://www.w3.org/2000/svg";
-  var colors=["#d3b334","#046978","#046978","#17022c","#d3b334","#d3b334"];
+  var colors=["#b79bff","#4d7c0f","#4d7c0f","#2c0d08","#b79bff","#b79bff"];
   for(var i=0;i<140;i++){
     var c=document.createElementNS(NS,"circle");
     var col=colors[i%colors.length];
@@ -1384,7 +1632,7 @@ function fireConfetti(){
   var c=document.getElementById("confetti"),ctx=c.getContext("2d");
   c.width=window.innerWidth;c.height=window.innerHeight;
   c.classList.add("show");
-  var cols=["#d3b334","#046978","#d3b334","#d3b334","#edf0f9"],parts=[];
+  var cols=["#b79bff","#4d7c0f","#b79bff","#b79bff","#edf0f9"],parts=[];
   for(var i=0;i<45;i++)parts.push({x:Math.random()*c.width,y:-20-Math.random()*c.height*0.25,
     w:4+Math.random()*4,h:5+Math.random()*5,c:cols[i%cols.length],
     vy:0.7+Math.random()*1.1,ph:Math.random()*Math.PI*2,sw:0.4+Math.random()*0.8,
@@ -1420,7 +1668,7 @@ fio.observe(document.querySelector("footer"));
 /* Mini-poll backend config. Empty = preview mode (local votes, 3-day cooldown).
    To go live: fill in your Supabase project URL + anon key (see poll-admin README). */
 window.MINI_POLL_CONFIG = { supabaseUrl: "", anonKey: "", turnstileSiteKey: "",
-  accents: ["#d3b334", "#046978", "#17022c", "#917c28", "#0e899c", "#e3ca69", "#2b0254", "#1f023d", "#6d1fbc"] };
+  accents: ["#b79bff", "#4d7c0f", "#2c0d08", "#917c28", "#0e899c", "#e3ca69", "#2b0254", "#1f023d", "#6d1fbc"] };
 </script>
 <script>
 /* Mini-poll web component — vanilla JS, no dependencies.
@@ -1504,8 +1752,8 @@ window.MINI_POLL_CONFIG = { supabaseUrl: "", anonKey: "", turnstileSiteKey: "",
      Palette comes from window.MINI_POLL_CONFIG.accents when the page sets one,
      otherwise the default nine-color set. */
   var ACCENTS = (window.MINI_POLL_CONFIG && window.MINI_POLL_CONFIG.accents) ||
-                ['#d3b334', '#046978', '#d3b334', '#a78bfa', '#d3b334',
-                 '#046978', '#d3b334', '#046978', '#750ae0'];
+                ['#b79bff', '#4d7c0f', '#b79bff', '#a78bfa', '#b79bff',
+                 '#4d7c0f', '#b79bff', '#4d7c0f', '#750ae0'];
   function pollAccents(slug) {
     var m = /ch(\d+)/.exec(slug || '');
     var i = m ? parseInt(m[1], 10) - 1 : 0;
